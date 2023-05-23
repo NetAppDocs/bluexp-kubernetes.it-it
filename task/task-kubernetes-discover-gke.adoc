@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task/task-kubernetes-discover-gke.html 
+keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, import kubernetes cluster, google, google cloud, gke, kubernetes support 
+summary: Puoi scoprire o importare i cluster Kubernetes in BlueXP in modo da poter eseguire il backup dei volumi persistenti in Google Cloud. 
+---
+= Aggiungere un cluster Google Cloud Kubernetes a BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Puoi scoprire o importare i cluster Kubernetes in BlueXP in modo da poter eseguire il backup dei volumi persistenti in Google Cloud.
+
+
+
+== Individuare un cluster
+
+È possibile scoprire un cluster Kubernetes completamente gestito o autogestito. I cluster gestiti devono essere rilevati e non possono essere importati.
+
+.Fasi
+. In *Canvas*, fare clic su *Add Working Environment* (Aggiungi ambiente di lavoro).
+. Selezionare *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
++
+image:screenshot-discover-kubernetes-gke.png["Una schermata della pagina Add Working Environment (Aggiungi ambiente di lavoro) che mostra Google Cloud Platform e Kubernetes Cluster selezionati."]
+
+. Selezionare *Discover Cluster* (Discover Cluster) e fare clic su *Next* (Avanti).
+. Per selezionare un cluster Kubernetes in un altro progetto Google Cloud, fai clic su *Modifica progetto* e scegli un progetto disponibile.
++
+image:screenshot-k8s-gke-change-project.png["Una schermata della pagina Edit project (Modifica progetto) che mostra l'elenco a discesa dei Google Cloud Projects disponibili."]
+
+. Selezionare un cluster Kubernetes e fare clic su *Avanti*.
++
+image:screenshot-k8s-gke-discover.png["Una schermata della pagina Discover a Kubernetes Cluster (Discover a Kubernetes Cluster) che mostra un cluster Kubernetes selezionato."]
+
+
+
+.Risultato
+BlueXP aggiunge il cluster Kubernetes a Canvas.
+
+image:screenshot-k8s-gke-canvas.png["Una schermata di Canvas in BlueXP che mostra un cluster Kubernetes."]
+
+
+
+== Importare un cluster
+
+È possibile importare un cluster Kubernetes autogestito utilizzando un file di configurazione Kubernetes.
+
+
+
+== Prima di iniziare
+
+Per importare i cluster Kubernetes, sono necessari i certificati autorità di certificazione, chiave client e certificato client per l'utente specificato nel file YAML del ruolo del cluster. L'amministratore del cluster Kubernetes riceve queste certificazioni quando crea utenti sul cluster Kubernetes.
+
+.Fasi
+. In *Canvas*, fare clic su *Add Working Environment* (Aggiungi ambiente di lavoro).
+. Selezionare *Google Cloud Platform* > *Kubernetes Cluster* > *Discover*.
+. Selezionare *Importa cluster* e fare clic su *Avanti*.
+. Caricare un file di configurazione Kubernetes in formato YAML.
++
+image:screenshot-k8s-gke-import-1.png["Una schermata della pagina di importazione dei cluster Kubernetes con il file di configurazione e la tabella dei cluster disponibili."]
+
+
+
+.Risultato
+BlueXP aggiunge il cluster Kubernetes a Canvas.

@@ -1,0 +1,108 @@
+---
+sidebar: sidebar 
+permalink: task/task-k8s-manage-storage-classes.html 
+keywords: kubernetes, k8s, add storage class, remove storage class 
+summary: Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per gestire le classi di storage. 
+---
+= Gestire le classi di storage
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per gestire le classi di storage.
+
+
+NOTE: Se non viene definita alcuna classe di storage, il cluster mostra che è necessaria un'azione. Facendo doppio clic sul cluster in Canvas si apre la pagina delle azioni per aggiungere una classe di storage.
+
+
+
+== Aggiungere classe di storage
+
+.Fasi
+. Da Canvas, trascinare l'ambiente di lavoro Kubernetes sull'ambiente di lavoro Cloud Volumes ONTAP o Amazon FSX per ONTAP per aprire la procedura guidata della classe di storage.
+. Specificare un nome per la classe di storage.
+. Selezionare lo storage *filesystem* o *block*.
++
+.. Per lo storage *block*, selezionare un tipo di file system (fstype)
++
+image:screenshot-k8s-storage-fstype.png["Una schermata che mostra l'opzione fstipe per lo storage a blocchi durante la configurazione di una classe di storage K8s."]
+
+.. Per lo storage *block* o *filesystem*, è possibile scegliere di abilitare l'economia della classe di storage.
++
+image:screenshot-k8s-storage-economy.png["Una schermata che mostra l'opzione di risparmio dello storage durante la configurazione di una classe di storage K8s a blocchi o file."]
+
++
+
+NOTE: Backup e ripristino non sono supportati quando si utilizza storage class economy.
+
+
+
+. Selezionare le opzioni per l'espansione del volume, il binding del volume e la classe di storage predefinita. Fare clic su *Avanti*.
+. Selezionare un ambiente di lavoro per la connessione al cluster. Fare clic su *Aggiungi*.
++
+image:screenshot-k8s-select-storage-class.png["Una schermata che mostra la selezione dell'ambiente di lavoro per il cluster Kubernetes."]
+
+
+
+.Risultati
+È possibile fare clic per visualizzare la classe di storage dalla pagina delle risorse del cluster Kubernetes.
+
+image:screenshot-k8s-view-storage-class.png["Una schermata che mostra \"View Storage Class\" dalla pagina delle risorse di Kubernetes."]
+
+
+
+== Visualizza i dettagli dell'ambiente di lavoro
+
+.Fasi
+. Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.
+. Fare clic sulla scheda *Storage CLASSES*.
+. Fare clic sull'icona delle informazioni per visualizzare i dettagli dell'ambiente di lavoro.
+
+
+.Risultati
+Viene visualizzato il pannello dei dettagli dell'ambiente di lavoro.
+
+image:screenshot-k8s-info-storage-class.png["Una schermata dei dettagli dell'ambiente di lavoro per il cluster Kubernetes."]
+
+
+
+== Impostare la classe di storage predefinita
+
+.Fasi
+. Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.
+. Fare clic sulla scheda *Storage CLASSES*.
+. Fare clic sul menu delle azioni della classe di storage e fare clic su *Set as Default* (Imposta come predefinita).
++
+image:screenshot-k8s-default-storage-class.png["Una schermata del menu delle azioni che imposta la classe di storage predefinita."]
+
+
+
+.Risultati
+La classe di storage selezionata viene impostata come predefinita.
+
+image:screenshot-k8s-default-set-storage-class.png["Una schermata che mostra la classe di storage predefinita."]
+
+
+
+== Rimuovere la classe di storage
+
+.Fasi
+. Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.
+. Fare clic sulla scheda *Storage CLASSES*.
+. Fare clic sul menu delle azioni della classe di storage e fare clic su *Set as Default* (Imposta come predefinita).
++
+image:screenshot-k8s-remove-storage-class.png["Una schermata del menu delle azioni per rimuovere la classe di storage."]
+
+. Fare clic su *Remove* (Rimuovi) per confermare la rimozione della classe di storage.
++
+image:screenshot-k8s-remove-confirm-storage-class.png["Una schermata della schermata di conferma per rimuovere la classe di storage."]
+
+
+
+.Risultati
+La classe di storage selezionata viene rimossa.

@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Prima di aprire un caso di supporto con il supporto tecnico NetApp, è necessario aggiungere un account NetApp Support Site a BlueXP e registrarsi per il supporto.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Registrati per ricevere assistenza</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Prima di aprire un caso di supporto con il supporto tecnico NetApp, è necessario aggiungere un account NetApp Support Site (NSS) a BlueXP e quindi registrarsi per il supporto.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Supporto per le soluzioni cloud provider</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Per il supporto tecnico sulle seguenti soluzioni di cloud provider integrate in BlueXP, fare riferimento alla sezione "Assistenza" nella documentazione BlueXP relativa a tale prodotto.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX per ONTAP</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service per Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Panoramica sulla registrazione del supporto</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Esistono due forme di registrazione per attivare i diritti di supporto:</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registrazione dell'abbonamento al supporto per l'ID account BlueXP (il numero di serie a 20 cifre 960xxxxxxxxx nella pagina Support Resources di BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Questa funzione funge da unico ID di abbonamento al supporto per qualsiasi servizio all'interno di BlueXP. Ogni abbonamento al supporto a livello di account BlueXP deve essere registrato.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrazione dei numeri di serie Cloud Volumes ONTAP associati a un abbonamento nel mercato del provider cloud (si tratta di numeri di serie 909201xxxxxxxx a 20 cifre).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Questi numeri seriali sono comunemente denominati _numeri seriali PAYGO_ e vengono generati da BlueXP al momento dell'implementazione di Cloud Volumes ONTAP.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">La registrazione di entrambi i tipi di numeri di serie offre funzionalità come l'apertura di ticket di supporto e la generazione automatica dei casi.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">La modalità di registrazione dipende dal fatto che tu sia un cliente o un partner nuovo o esistente.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Cliente o partner esistente</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">In qualità di cliente o partner NetApp esistente, puoi utilizzare il tuo account SSO NetApp Support Site (NSS) per eseguire queste registrazioni di cui sopra. Nel Support Dashboard, BlueXP fornisce una pagina *NSS Management* dove è possibile aggiungere il proprio account NSS. Una volta aggiunto l'account NSS, BlueXP registra automaticamente questi numeri di serie.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Scopri come aggiungere il tuo account NSS</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Novità di NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Se sei nuovo di NetApp, devi completare una registrazione unica del numero di serie del tuo ID account BlueXP sul sito di registrazione del supporto di NetApp. Una volta completata la registrazione e creato un nuovo account NSS, puoi utilizzare questo account in BlueXP per effettuare la registrazione automatica.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Scopri come registrarti a NetApp</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Aggiungere un account NSS a BlueXP</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">Support Dashboard consente di aggiungere e gestire gli account NetApp Support Site da utilizzare con BlueXP.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Se disponi di un account a livello di cliente, puoi aggiungere uno o più account NSS.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se disponi di un account partner o reseller, puoi aggiungere uno o più account NSS, ma non possono essere aggiunti insieme agli account a livello di cliente.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Nella parte superiore destra della console BlueXP, fare clic sull'icona Guida e selezionare *supporto*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Schermata del menu Help (Guida) in cui Support (Assistenza) è la prima opzione elencata</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Fare clic su *Gestione NSS &gt; Aggiungi account NSS*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Quando richiesto, fare clic su *Continue* per essere reindirizzati a una pagina di accesso Microsoft.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilizza Microsoft Azure Active Directory come provider di identità per i servizi di autenticazione specifici per il supporto e la concessione di licenze.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Nella pagina di accesso, fornire l'indirizzo e-mail e la password registrati del NetApp Support Site per eseguire il processo di autenticazione.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Queste azioni consentono a BlueXP di utilizzare il tuo account NSS per download di licenze, verifica dell'aggiornamento software e registrazioni di supporto future.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenere presente quanto segue:</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">L'account NSS deve essere un account a livello di cliente (non un account guest o temporaneo). Puoi avere più account NSS a livello di cliente.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Se si tratta di un account di livello partner, può essere presente un solo account NSS. Se si tenta di aggiungere account NSS a livello di cliente ed esiste un account a livello di partner, viene visualizzato il seguente messaggio di errore:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"Il tipo di cliente NSS non è consentito per questo account, in quanto esistono già utenti NSS di tipo diverso."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Lo stesso vale se si dispone di account NSS a livello di cliente preesistenti e si tenta di aggiungere un account a livello di partner.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Una volta effettuato l'accesso, NetApp memorizzerà il nome utente NSS.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Un'icona di tre punti orizzontali</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Si tratta di un ID generato dal sistema che viene mappato all'e-mail. Nella pagina *NSS Management*, è possibile visualizzare l'e-mail da <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Se è necessario aggiornare i token delle credenziali di accesso, è disponibile anche l'opzione *Update Credentials* (Aggiorna credenziali) in <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> menu.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Questa opzione richiede di effettuare nuovamente l'accesso. Il token per questi account scade dopo 90 giorni. Verrà inviata una notifica per avvisare l'utente.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Registrati con NetApp</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">La modalità di registrazione al supporto NetApp dipende dal fatto che si disponga già di un account NetApp Support Site (NSS).</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Cliente esistente con un account NSS</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Se sei un cliente NetApp con un account NSS, devi semplicemente registrarti per ricevere supporto tramite BlueXP.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Se non l'hai ancora fatto, Aggiungi il tuo account NSS a BlueXP.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Nella pagina *risorse*, fare clic su *Registra per il supporto*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">Una schermata che mostra il numero di serie di un account e l'opzione Registra per il supporto</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Cliente esistente ma nessun account NSS</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Se sei già un cliente NetApp con licenze e numeri di serie esistenti ma _no_ account NSS, devi solo creare un account NSS.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">Modulo di registrazione per l'utente del sito di supporto NetApp</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Creare un account NetApp Support Site completando il<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Assicurarsi di selezionare il livello utente appropriato, che in genere è *cliente/utente finale NetApp*.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Assicurarsi di copiare il numero di serie dell'account BlueXP (960xxxx) utilizzato in precedenza per il campo del numero di serie. In questo modo, l'elaborazione dell'account sarà più rapida.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Novità di NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Se sei nuovo di NetApp e non disponi di un account NSS, segui i passaggi riportati di seguito.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Individuare il numero di serie dell'ID account nella pagina Support Registration (registrazione supporto).</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Sito per la registrazione del supporto NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Selezionare<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> E selezionare *non sono un cliente NetApp registrato*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Compilare i campi obbligatori (con asterischi rossi).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Nel campo *Product Line*, selezionare *Cloud Manager*, quindi selezionare il provider di fatturazione appropriato.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Copia il numero di serie del tuo account dal punto 2 precedente, completa il controllo di sicurezza, quindi conferma di aver letto la Global Data Privacy Policy di NetApp.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Viene immediatamente inviata un'e-mail alla casella di posta fornita per finalizzare questa transazione sicura. Controllare le cartelle di spam se l'e-mail di convalida non arriva in pochi minuti.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Confermare l'azione dall'interno dell'e-mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">La conferma invia la tua richiesta a NetApp e ti consiglia di creare un account NetApp Support Site.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">Assicurarsi di copiare il numero di serie dell'account (960xxxx) utilizzato in precedenza per il campo del numero di serie. In questo modo, l'elaborazione dell'account sarà più rapida.</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Al termine</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp dovrebbe contattarti durante questo processo. Si tratta di un esercizio di assunzione per i nuovi utenti.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Una volta ottenuto l'account NetApp Support Site, è possibile accedere a BlueXP per aggiungere questo account NSS per le registrazioni future.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp fornisce supporto per BlueXP in diversi modi. Sono disponibili opzioni complete di supporto autonomo gratuito 24 ore su 24, 7 giorni su 7, come articoli della knowledge base (KB) e un forum della community. La registrazione al supporto include il supporto tecnico remoto via web ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Richiedi assistenza</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp fornisce supporto per BlueXP e i suoi servizi cloud in diversi modi. Sono disponibili opzioni complete di supporto autonomo gratuito 24 ore su 24, 7 giorni su 7, come articoli della knowledge base (KB) e un forum della community. La registrazione al supporto include il supporto tecnico remoto via web ticketing.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Utilizzare le opzioni di supporto automatico</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Queste opzioni sono disponibili gratuitamente, 24 ore su 24, 7 giorni su 7:</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Knowledge base</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Cercare nella Knowledge base di BlueXP articoli utili per la risoluzione dei problemi.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Community</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Unisciti alla community BlueXP per seguire le discussioni in corso o crearne di nuove.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentazione</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentazione BlueXP attualmente visualizzata.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Mailto:ng-cloudmanager-feedback@netapp.com[email di feedback]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Diamo valore al tuo contributo. Invia un feedback per aiutarci a migliorare BlueXP.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crea un caso con il supporto NetApp</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Oltre alle opzioni di supporto autonomo sopra descritte, puoi collaborare con uno specialista del supporto NetApp per risolvere eventuali problemi dopo l'attivazione del supporto.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Prima di iniziare</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Scopri come registrarti per il supporto</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Per utilizzare la funzione *Crea un caso*, è necessario prima eseguire una registrazione una tantum del numero di serie dell'ID account BlueXP (ad es. 960xxxx) con NetApp. <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">In BlueXP, fare clic su *Guida &gt; supporto*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Nella pagina *risorse*, scegliere una delle opzioni disponibili in supporto tecnico:</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Fai clic su *Chiamaci* per parlare con qualcuno al telefono. Viene visualizzata una pagina su netapp.com che elenca i numeri di telefono che è possibile chiamare.</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Fare clic su *Crea un caso* per aprire un ticket con uno specialista del supporto NetApp:</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*NetApp Support Site account*: Selezionare l'account NSS applicabile associato alla persona che apre il caso di supporto. Questa persona sarà il contatto principale a cui NetApp dovrà contattare, oltre alle e-mail aggiuntive fornite di seguito.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Se non vedi il tuo account NSS, puoi accedere alla scheda *NSS Management* nella sezione Support di BlueXP per aggiungerlo.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Servizio*: Selezionare il servizio a cui è associato il problema. Ad esempio, BlueXP quando si tratta di un problema di supporto tecnico relativo a flussi di lavoro o funzionalità all'interno del servizio.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Ambiente di lavoro*: Se applicabile allo storage, selezionare *Cloud Volumes ONTAP* o *on-premise* e quindi l'ambiente di lavoro associato.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">L'elenco degli ambienti di lavoro rientra nell'ambito dell'account, dell'area di lavoro e del connettore BlueXP selezionato nel banner superiore del servizio.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Priorità caso*: Scegliere la priorità per il caso, che può essere bassa, Media, alta o critica.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Per ulteriori informazioni su queste priorità, passare il mouse sull'icona delle informazioni accanto al nome del campo.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Descrizione del problema*: Fornire una descrizione dettagliata del problema, inclusi eventuali messaggi di errore o procedure di risoluzione dei problemi che sono state eseguite.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Indirizzi e-mail aggiuntivi*: Inserisci indirizzi e-mail aggiuntivi se desideri informare qualcun altro del problema.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*Allegato (opzionale)*: Carica fino a cinque allegati, uno alla volta.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Gli allegati sono limitati a 25 MB per file. Sono supportate le seguenti estensioni di file: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx e csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Schermata del modulo Crea un caso che consente di creare un caso con il supporto NetApp.</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Viene visualizzata una finestra a comparsa con il numero del caso di supporto. Uno specialista del supporto NetApp esaminerà il tuo caso e ti contatterà al più presto.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Per una cronologia dei casi di supporto, fare clic su *Impostazioni &gt; Cronologia* e cercare le azioni denominate "Crea caso di supporto". Un pulsante all'estrema destra consente di espandere l'azione per visualizzare i dettagli.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di creare un caso:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"Non sei autorizzato a creare un caso per il servizio selezionato"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Questo errore potrebbe indicare che l'account NSS e la società di registrazione a cui è associato non sono la stessa società di registrazione per il numero di serie dell'account BlueXP (ad es. 960xxxx) o il numero di serie dell'ambiente di lavoro. Puoi consultare l'elenco degli account NSS nella parte superiore del modulo *Crea un caso* per trovare la corrispondenza giusta oppure richiedere assistenza utilizzando una delle seguenti opzioni:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Utilizza la chat integrata nel prodotto</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Inviare un caso non tecnico all'indirizzo<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Gestire i casi di supporto (anteprima)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">È possibile visualizzare e gestire i casi di supporto attivi e risolti direttamente da BlueXP. Puoi gestire i casi associati al tuo account NSS e alla tua azienda.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">La gestione del caso è disponibile come anteprima. Intendiamo perfezionare questa esperienza e aggiungere miglioramenti alle prossime release. Inviaci un feedback utilizzando la chat in-product.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">La dashboard di gestione dei casi nella parte superiore della pagina offre due visualizzazioni:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">La vista a sinistra mostra il totale dei casi aperti negli ultimi 3 mesi dall'account NSS dell'utente fornito.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">La vista a destra mostra il totale dei casi aperti negli ultimi 3 mesi a livello aziendale in base all'account NSS dell'utente.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">I risultati della tabella riflettono i casi correlati alla vista selezionata.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">È possibile aggiungere o rimuovere colonne di interesse e filtrare il contenuto di colonne come priorità e Stato. Altre colonne offrono funzionalità di ordinamento.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Per ulteriori informazioni, consulta la procedura riportata di seguito.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">A livello di caso, offriamo la possibilità di aggiornare le note del caso o chiudere un caso che non è già in stato chiuso o in attesa di chiusura.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Fare clic su *Gestione casi* e, se richiesto, aggiungere l'account NSS a BlueXP.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">La pagina *Gestione del caso* mostra i casi aperti relativi all'account NSS associato all'account utente BlueXP. Si tratta dello stesso account NSS visualizzato nella parte superiore della pagina *gestione NSS*.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Se si desidera, modificare le informazioni visualizzate nella tabella:</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">In *Organization's Cases* (casi dell'organizzazione), fare clic su *View* (Visualizza) per visualizzare tutti i casi associati alla società.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Modificare l'intervallo di date scegliendo un intervallo di date esatto o scegliendo un intervallo di tempo diverso.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Una schermata dell'opzione sopra la tabella nella pagina di gestione del caso che consente di scegliere un intervallo di date esatto o gli ultimi 7 giorni, 30 giorni o 3 mesi.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtrare il contenuto delle colonne.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Schermata dell'opzione di filtro nella colonna Status (Stato) che consente di filtrare i casi che corrispondono a uno stato specifico, ad esempio attivo o chiuso.</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">L'icona più visualizzata nella tabella</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Modificare le colonne visualizzate nella tabella facendo clic su <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> e quindi scegliere le colonne che si desidera visualizzare.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Una schermata che mostra le colonne che è possibile visualizzare nella tabella.</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Un'icona con tre punti che compare nell'ultima colonna della tabella</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Gestire un caso esistente facendo clic su <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> e selezionando una delle opzioni disponibili:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Visualizza caso*: Visualizza tutti i dettagli relativi a un caso specifico.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aggiorna note sul caso*: Fornisci ulteriori dettagli sul problema oppure seleziona *carica file* per allegare fino a un massimo di cinque file.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Chiudi caso*: Fornisci i dettagli sul motivo per cui stai chiudendo il caso e fai clic su *Chiudi caso*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Una schermata che mostra le azioni che è possibile eseguire dopo aver selezionato il menu nell'ultima colonna della tabella.</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dfbe168da8f2c622999763a901cfb01f" category="summary">È possibile utilizzare BlueXP per installare Astra Trident, configurare le classi di storage, rimuovere i cluster e abilitare i servizi dati.</block>
+  <block id="384b71db954a7a463c759208283e47c4" category="doc">Gestire i cluster Kubernetes</block>
+  <block id="85f3c28401138a5e7e67a35f6a6235fb" category="paragraph">È possibile utilizzare BlueXP per installare o aggiornare Astra Trident, configurare le classi di storage, rimuovere i cluster e abilitare i servizi dati.</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Caratteristiche</block>
+  <block id="f1353ecc73ca9ea978933e3884b9ce99" category="paragraph">Dopo aver aggiunto i cluster Kubernetes a BlueXP, è possibile gestire i cluster dalla pagina delle risorse. Per aprire la pagina delle risorse, fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas.</block>
+  <block id="a55c9ab275da7d6af3d043922cbe9db6" category="inline-image-macro">Una schermata della pagina delle risorse di Kubernetes che mostra i dettagli del cluster.</block>
+  <block id="6e7cef0ef9634162a88caaa29c694893" category="paragraph"><block ref="6e7cef0ef9634162a88caaa29c694893" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0a7f3527cff1099d537e438e6d62de3f" category="paragraph">Dalla pagina delle risorse è possibile:</block>
+  <block id="ae98d4fcb6e8e5720784f6c4936d3fda" category="list-text">Visualizzare lo stato del cluster Kubernetes.</block>
+  <block id="f1fe71442cd08e74d342114df7ee1551" category="inline-link-macro">Installare Astra Trident</block>
+  <block id="2d5671c9f87d5881eec80e4e140c0364" category="list-text">Verificare che sia installata una versione compatibile di Astra Trident, eseguire l'aggiornamento all'ultima versione di Astra Trident o disinstallare Astra Trident. Vedere <block ref="1a59dd77a0d64111faec261144239ca1" category="inline-link-macro-rx"></block>.</block>
+  <block id="e8b9c3a9859a62e9a58431c3b61f75d5" category="inline-link-macro">Gestire le classi di storage</block>
+  <block id="37b5997855958384cd2d8f88d0ea2dd5" category="list-text">Aggiungere e rimuovere classi di storage. Vedere <block ref="b3baecb7f739f8467c020eefaf640928" category="inline-link-macro-rx"></block>.</block>
+  <block id="260adbf21b473e18ea0788235c9512b8" category="inline-link-macro">Visualizzare volumi persistenti</block>
+  <block id="642589473fadbb6740e9f7d1a3850cf1" category="list-text">Visualizzare volumi persistenti. Vedere <block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block>.</block>
+  <block id="f253fdd547a6f5e0e05bbdb671ae8b24" category="inline-link-macro">Rimuovere i cluster</block>
+  <block id="89a12c12c4f14698d4d0f49fd915edb9" category="list-text">Rimuovere i cluster Kubernetes dallo spazio di lavoro. Vedere <block ref="33d1886382ffb71c3c53768c25f3a54f" category="inline-link-macro-rx"></block>.</block>
+  <block id="c83be9d30dd0d8b55fb8bdbf6f11eb85" category="inline-link-macro">Utilizza i servizi dati cloud di NetApp</block>
+  <block id="77e1e303a063c3bd0ea334e8a2343ce0" category="list-text">Attivare o visualizzare il backup e ripristino BlueXP. Vedere <block ref="f48a95ae0530624cb3f954263c78705c" category="inline-link-macro-rx"></block>.</block>
+  <block id="51ce397d2f1bccd912fdb6f415de2940" category="section-title">Limite noto</block>
+  <block id="a13d7ae6b7b86fa9e684a460792c33c3" category="inline-link-macro">disinstallare usf.&lt;block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category='inline-code'/&gt;</block>
+  <block id="b6f2a65b5d8cda52b65468f1121cccbe" category="inline-link-macro">Utilizzando l'operatore Trident</block>
+  <block id="b057ae1ed0b2c48dbe6fd1b1b2ea1a30" category="inline-link-macro">Utilizzando BlueXP</block>
+  <block id="99c79d7305ef37a48c4a2e79d238d9cf" category="paragraph">Astra Trident implementato con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> non è supportato. Se hai implementato Astra Trident con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>, Non è possibile utilizzare BlueXP per gestire i cluster Kubernetes. È necessario <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> e reinstallarla <block ref="47df2f698ba12609a6e06bab6dbff5ef" category="inline-link-macro-rx"></block> oppure <block ref="6111f1619ab72aa073417e456dea63ce" category="inline-link-macro-rx"></block>.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">I file di avviso forniscono informazioni sul copyright e sulle licenze di terze parti utilizzate nel software NetApp.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Avviso per BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="72999cd653b12474752fb77bab9691e3" category="inline-link-macro">Avviso per il Cloud Backup</block>
+  <block id="75be9a02506771b87be972c89707f0d4" category="list-text"><block ref="75be9a02506771b87be972c89707f0d4" category="inline-link-macro-rx"></block></block>
+  <block id="2d0d83c08c4362b4f3ef77090f6e08d9" category="summary">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per visualizzare i volumi persistenti connessi.</block>
+  <block id="244df56b639d8385f2335beb554f217c" category="paragraph">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per visualizzare i volumi persistenti.</block>
+  <block id="0de4109f1b1e1933e20489e4dace744d" category="admonition">BlueXP monitora il cluster Kubernetes per rilevare eventuali modifiche al backend e aggiorna la tabella dei volumi persistenti quando vengono aggiunti nuovi volumi. Se è stato configurato il backup automatico sul cluster, il backup viene attivato automaticamente sui nuovi volumi persistenti.</block>
+  <block id="1130de8b9b833485eff2e257fb69bfc6" category="list-text">Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.</block>
+  <block id="89c3bcf0ecc1114f8d19734d9156cb40" category="inline-link-macro">Provisioning</block>
+  <block id="fcba6012c777a16b10bc3866ceb75c1c" category="list-text">Fare clic su *View Volumes* (Visualizza volumi) dalla scheda *Overview* (Panoramica) oppure fare clic sulla scheda *Persistent Volumes* (volumi persistenti). Se non sono configurati volumi persistenti, vedere <block ref="8ea547c8e5046e3bbfaab0e05145f9ac" category="inline-link-macro-rx"></block> Per informazioni dettagliate sul provisioning dei volumi in Astra Trident.</block>
+  <block id="fd69c5cf902969e6fb71d043085ddee6" category="paragraph-title">Risultati</block>
+  <block id="3a84970eaeee39d237d01aa9a3807a56" category="paragraph">Viene visualizzata una tabella dei volumi persistenti configurati.</block>
+  <block id="9d7f06e389e97b5210ff3327f767fb7e" category="inline-image-macro">Una schermata della tabella dei volumi persistenti.</block>
+  <block id="592eeadfba828d69880933e6db8c3887" category="paragraph"><block ref="592eeadfba828d69880933e6db8c3887" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f989c724687d581379877d51050d6c0e" category="summary">Aggiungere un cluster Kubernetes a BlueXP in modo da poter iniziare il backup dei volumi persistenti in Azure.</block>
+  <block id="bbbfe19ca23f7ee5a4e823af05cbd046" category="doc">Aggiungere un cluster Azure Kubernetes a BlueXP</block>
+  <block id="05ecd2f4a0ed37993412cf4d3e123e85" category="paragraph">È possibile rilevare o importare cluster Kubernetes in BlueXP in modo da poter eseguire il backup di volumi persistenti in Azure.</block>
+  <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">Individuare un cluster</block>
+  <block id="59e75b22101388124024ba384dec1f2d" category="paragraph">È possibile scoprire un cluster Kubernetes completamente gestito o autogestito. I cluster gestiti devono essere rilevati e non possono essere importati.</block>
+  <block id="b3077ecf2da7858bca9554a978d04da1" category="list-text">In *Canvas*, fare clic su *Add Working Environment* (Aggiungi ambiente di lavoro).</block>
+  <block id="8382e8880f439b654a53cf3d0d0c1bfc" category="list-text">Selezionare *Microsoft Azure* &gt; *Kubernetes Cluster* &gt; *Discover*.</block>
+  <block id="16a071ff29c08b2edb676685f737e0a0" category="inline-image-macro">Una schermata della pagina Add Working Environment (Aggiungi ambiente di lavoro) che mostra Microsoft Azure e Kubernetes Cluster selezionati.</block>
+  <block id="d15187582d177bb14569cfabe373d93d" category="paragraph"><block ref="d15187582d177bb14569cfabe373d93d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="85b561ece86eb3db6c1399eedd6f653e" category="list-text">Selezionare *Discover Cluster* (Discover Cluster) e fare clic su *Next* (Avanti).</block>
+  <block id="55606c8490a0c12205b4fbed9fb905b8" category="list-text">Selezionare un cluster Kubernetes e fare clic su *Avanti*.</block>
+  <block id="4273385991c0997d8f662bc8ac479d62" category="inline-image-macro">Una schermata della pagina Discover a Kubernetes Cluster (Discover a Kubernetes Cluster) che mostra un cluster Kubernetes selezionato.</block>
+  <block id="860ae4b6d7d8ee1a9456e45642a4a03b" category="paragraph"><block ref="860ae4b6d7d8ee1a9456e45642a4a03b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Risultato</block>
+  <block id="02ba2e13b041c6824ecb6e0878729f6b" category="paragraph">BlueXP aggiunge il cluster Kubernetes a Canvas.</block>
+  <block id="f128695885fcf3c43ba6afe4c5632c58" category="inline-image-macro">Una schermata di Canvas in BlueXP che mostra un cluster Kubernetes.</block>
+  <block id="b99333497d2d3db69922107844cb9474" category="paragraph"><block ref="b99333497d2d3db69922107844cb9474" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ae6e85cbb1634ffdeb3abf570a9264bc" category="section-title">Importare un cluster</block>
+  <block id="4e8b848227e93eb2a419bf0e16f0b8f2" category="paragraph">È possibile importare un cluster Kubernetes autogestito utilizzando un file di configurazione Kubernetes.</block>
+  <block id="38d9ddcbf0dc2815705877c90303c234" category="paragraph">Per importare i cluster Kubernetes, sono necessari i certificati autorità di certificazione, chiave client e certificato client per l'utente specificato nel file YAML del ruolo del cluster. L'amministratore del cluster Kubernetes riceve queste certificazioni quando crea utenti sul cluster Kubernetes.</block>
+  <block id="6a172fac5b7b84be4bbdacac02e33cbd" category="list-text">Selezionare *Importa cluster* e fare clic su *Avanti*.</block>
+  <block id="b695b2f49a50c3d925dc789182bc1070" category="list-text">Caricare un file di configurazione Kubernetes in formato YAML.</block>
+  <block id="6e53f86d2931b115352479b77b41a90e" category="inline-image-macro">Una schermata della pagina di importazione dei cluster Kubernetes con il file di configurazione e la tabella dei cluster disponibili.</block>
+  <block id="7132ddadc6f50c922dca046957d31211" category="paragraph"><block ref="7132ddadc6f50c922dca046957d31211" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bb45c01f0defa7d4025530e60da27413" category="list-text">Caricare i certificati del cluster forniti dall'amministratore del cluster Kubernetes.</block>
+  <block id="88191bdb31785cfc9f3930579c08bc01" category="inline-image-macro">Schermata della pagina dei certificati del cluster utilizzata per caricare i certificati autorità di certificazione, chiave client e certificato client.</block>
+  <block id="590894349703ecdfd70867c311b0ca06" category="paragraph"><block ref="590894349703ecdfd70867c311b0ca06" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="813e0c140ee10df8f101e9a1489de17b" category="summary">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per gestire le classi di storage.</block>
+  <block id="810d62676145fe879fed7ed8a1ee0b17" category="paragraph">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per gestire le classi di storage.</block>
+  <block id="d3addf40fe274281b5a1b857dc827df3" category="admonition">Se non viene definita alcuna classe di storage, il cluster mostra che è necessaria un'azione. Facendo doppio clic sul cluster in Canvas si apre la pagina delle azioni per aggiungere una classe di storage.</block>
+  <block id="d23895cd28f2e8e5d3074279cea7aacf" category="section-title">Aggiungere classe di storage</block>
+  <block id="319a42bc8932c7d4f9387e0c5de9c64c" category="list-text">Da Canvas, trascinare l'ambiente di lavoro Kubernetes sull'ambiente di lavoro Cloud Volumes ONTAP o Amazon FSX per ONTAP per aprire la procedura guidata della classe di storage.</block>
+  <block id="1ccfa8d0f204060ee0f11f2c9eb14095" category="list-text">Specificare un nome per la classe di storage.</block>
+  <block id="c6433cee19c85bb6d8ae6aa94d0f3e29" category="list-text">Selezionare lo storage *filesystem* o *block*.</block>
+  <block id="41e48ca5b3f40412908aef4ef536c2c8" category="list-text">Per lo storage *block*, selezionare un tipo di file system (fstype)</block>
+  <block id="a021b0b7caf02edd4dae76afb277c7fc" category="inline-image-macro">Una schermata che mostra l'opzione fstipe per lo storage a blocchi durante la configurazione di una classe di storage K8s.</block>
+  <block id="0755724e46e8d77a91d98ad969973966" category="paragraph"><block ref="0755724e46e8d77a91d98ad969973966" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e11f0b59da480c27633ea9deb279246c" category="list-text">Per lo storage *block* o *filesystem*, è possibile scegliere di abilitare l'economia della classe di storage.</block>
+  <block id="6b1835b63a667b5d28c6cf5c193ebf6d" category="inline-image-macro">Una schermata che mostra l'opzione di risparmio dello storage durante la configurazione di una classe di storage K8s a blocchi o file.</block>
+  <block id="ffa448ca3a4e90a2baa6bcb5e38dfb5c" category="paragraph"><block ref="ffa448ca3a4e90a2baa6bcb5e38dfb5c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="45c054bee9c262cc9a4a08ee09307ceb" category="admonition">Backup e ripristino non sono supportati quando si utilizza storage class economy.</block>
+  <block id="f7fcb1352aec0188a9f059c28c8b96f2" category="list-text">Selezionare le opzioni per l'espansione del volume, il binding del volume e la classe di storage predefinita. Fare clic su *Avanti*.</block>
+  <block id="46213c151b950647dd4e20d3c0e13222" category="list-text">Selezionare un ambiente di lavoro per la connessione al cluster. Fare clic su *Aggiungi*.</block>
+  <block id="e0c9fa0852fea63dc1167ab3f2b85fb4" category="inline-image-macro">Una schermata che mostra la selezione dell'ambiente di lavoro per il cluster Kubernetes.</block>
+  <block id="8fe98c5be333c8d7ddf225ff536de10d" category="paragraph"><block ref="8fe98c5be333c8d7ddf225ff536de10d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6f78048f5e23feba1c2dfeeb70958d2b" category="paragraph">È possibile fare clic per visualizzare la classe di storage dalla pagina delle risorse del cluster Kubernetes.</block>
+  <block id="24d4e555e1f7b6ed662909980cd4b88c" category="inline-image-macro">Una schermata che mostra "View Storage Class" dalla pagina delle risorse di Kubernetes.</block>
+  <block id="a770b061844a8f658a79e0452983186e" category="paragraph"><block ref="a770b061844a8f658a79e0452983186e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a51c9219854a3d214e31f819a1e7632e" category="section-title">Visualizza i dettagli dell'ambiente di lavoro</block>
+  <block id="fed6f504a568def380a16e81e4509c4b" category="list-text">Fare clic sulla scheda *Storage CLASSES*.</block>
+  <block id="c05b19af7187edbea768275aa1835d7e" category="list-text">Fare clic sull'icona delle informazioni per visualizzare i dettagli dell'ambiente di lavoro.</block>
+  <block id="093397c8ba222a56a6cafe0046ed32df" category="paragraph">Viene visualizzato il pannello dei dettagli dell'ambiente di lavoro.</block>
+  <block id="88d7886b91f2558662854777a9258628" category="inline-image-macro">Una schermata dei dettagli dell'ambiente di lavoro per il cluster Kubernetes.</block>
+  <block id="30839295878a455d18f2b8a0dce98721" category="paragraph"><block ref="30839295878a455d18f2b8a0dce98721" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6cb5ec91420685bca856d5c3c506a3f0" category="section-title">Impostare la classe di storage predefinita</block>
+  <block id="e06675debd77236832cd1bc55da29490" category="list-text">Fare clic sul menu delle azioni della classe di storage e fare clic su *Set as Default* (Imposta come predefinita).</block>
+  <block id="60994baeb2a6bcfbd041df549466a420" category="inline-image-macro">Una schermata del menu delle azioni che imposta la classe di storage predefinita.</block>
+  <block id="fa49b244e60624d651baf60664e565b3" category="paragraph"><block ref="fa49b244e60624d651baf60664e565b3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f1d758a802b437c14987d63e77a61a9e" category="paragraph">La classe di storage selezionata viene impostata come predefinita.</block>
+  <block id="248ead8f8ebff7c3211d2c918694e817" category="inline-image-macro">Una schermata che mostra la classe di storage predefinita.</block>
+  <block id="101961998c35d35cc5ab5fd53eb57c57" category="paragraph"><block ref="101961998c35d35cc5ab5fd53eb57c57" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="90c935e9359ed5f4172e2bfbf031b209" category="section-title">Rimuovere la classe di storage</block>
+  <block id="e2fee88009bdc68bb3ccdcdbef57c310" category="inline-image-macro">Una schermata del menu delle azioni per rimuovere la classe di storage.</block>
+  <block id="04ed0f4f9893c8d492f8a5ac74b5a400" category="paragraph"><block ref="04ed0f4f9893c8d492f8a5ac74b5a400" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78b12c7f2018d4a6b9b2d3ab0aa23fab" category="list-text">Fare clic su *Remove* (Rimuovi) per confermare la rimozione della classe di storage.</block>
+  <block id="14d57c72376f75349d67da3b67721b52" category="inline-image-macro">Una schermata della schermata di conferma per rimuovere la classe di storage.</block>
+  <block id="0dd89c6b1e51baa8486c2bb0e6b80b54" category="paragraph"><block ref="0dd89c6b1e51baa8486c2bb0e6b80b54" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="afd76a0ed7f0f829a9fddbc272ab6299" category="paragraph">La classe di storage selezionata viene rimossa.</block>
+  <block id="eaf3ec2142c8e728c168bcce984b8f8a" category="summary">Importa un cluster OpenShift autogestiti in BlueXP in modo da poter iniziare il backup dei volumi persistenti nel tuo provider cloud.</block>
+  <block id="020cdcf75af448034455fde9f5359770" category="doc">Importare un cluster OpenShift in BlueXP</block>
+  <block id="87eb1c50a9edf2828790a29892be6cd8" category="paragraph">Importa un cluster OpenShift autogestiti in BlueXP per iniziare a eseguire il backup dei volumi persistenti nel tuo provider cloud.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Prima di iniziare</block>
+  <block id="d507a2c476794012c5403c02b1e10599" category="paragraph">Prima di importare un cluster OpenShift, è necessario:</block>
+  <block id="d795d581b00d494d8c6250bb5e1fcf89" category="inline-link-macro">creare un file kubeconfig</block>
+  <block id="9a1523c9f261730956627967961b03ba" category="list-text">Il file `kubeconfig-sa`creato in <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>.</block>
+  <block id="e7076b96b4cfb7668eac66eb624334ad" category="list-text">I file Public Certificate Authority (ad esempio, ca.crt), Client Key (ad esempio tls.key) e Client Certification (ad esempio, tls.crt) per il cluster.</block>
+  <block id="17011a566ae4f46bae81e507282825fb" category="list-text">In *Canvas*, selezionare *Add Working Environment* (Aggiungi ambiente di lavoro).</block>
+  <block id="da391b0f5d5be6622fec4f741f6e4b96" category="list-text">Seleziona il tuo provider cloud e seleziona *Kubernetes Cluster* &gt; *Discover*.</block>
+  <block id="02ebc3697d40233b9c554520eda51f25" category="list-text">Selezionare *Importa cluster*, quindi *Avanti*.</block>
+  <block id="d68d1fb21874c919e4b91a231a5f7974" category="list-text">Caricare<block ref="f6adb0f39622272857607018d7dae272" prefix=" " category="inline-code"></block> file creato in <block ref="853bbee8a9a9e7ed0c6dbe47e266bf3d" category="inline-link-macro-rx"></block>. Selezionare il cluster Kubernetes e selezionare *Avanti*.</block>
+  <block id="7c371426945f4674b445faa898f442c8" category="list-text">Caricare i certificati del cluster.</block>
+  <block id="40a58da0341e721e033a4cf334d62ab0" category="inline-image-macro">Una schermata della schermata di caricamento del certificato del cluster.</block>
+  <block id="95a989ce51f5125f1cda095e21371ee7" category="paragraph"><block ref="95a989ce51f5125f1cda095e21371ee7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5ade6a4c54ab3688b0981e0a2dfa146a" category="summary">Aggiungi un cluster Amazon Elastic Kubernetes Service (Amazon EKS) a BlueXP per iniziare il backup dei volumi persistenti su Amazon S3.</block>
+  <block id="930f8261feefb91d4935530455673ddc" category="doc">Aggiungere un cluster Amazon Kubernetes a BlueXP</block>
+  <block id="23fdd1e89179a63dbfee620342891664" category="paragraph">Puoi scoprire o importare i cluster Kubernetes in BlueXP in modo da poter eseguire il backup dei volumi persistenti in Amazon S3.</block>
+  <block id="824ab8e63b4d52c9afc7f4925a7654af" category="list-text">Selezionare *Amazon Web Services* &gt; *Kubernetes Cluster* &gt; *Discover*.</block>
+  <block id="d59c3e6f1bd8ff190720d2953c94c804" category="inline-image-macro">Una schermata della pagina Discover a Kubernetes Cluster (Discover a Kubernetes Cluster) che mostra una regione AWS selezionata e un cluster Kubernetes.</block>
+  <block id="f8c9a10cf098481ef28aa7f25a7229aa" category="paragraph"><block ref="f8c9a10cf098481ef28aa7f25a7229aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="84a9f84fdd14e27de2581a0cef7980f8" category="list-text">Scegliere una regione AWS, selezionare un cluster Kubernetes e fare clic su *Avanti*.</block>
+  <block id="319ac76ffc37cba773f6bfe88644a59e" category="paragraph"><block ref="319ac76ffc37cba773f6bfe88644a59e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="97ede2b65d07a20f2328447c2ac8ddae" category="paragraph"><block ref="97ede2b65d07a20f2328447c2ac8ddae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="208bc8f4c94339fa8fca1463c194cc66" category="list-text">Selezionare il cluster Kubernetes e fare clic su *Avanti*.</block>
+  <block id="2a7197d6e9567831e87e6509f3201004" category="summary">Puoi scoprire o importare i cluster Kubernetes in BlueXP in modo da poter eseguire il backup dei volumi persistenti in Google Cloud.</block>
+  <block id="0ea87609b14e53ad467ce5d72a9245c5" category="doc">Aggiungere un cluster Google Cloud Kubernetes a BlueXP</block>
+  <block id="0777348438f5b5e80b80f0b45f60b666" category="list-text">Selezionare *Google Cloud Platform* &gt; *Kubernetes Cluster* &gt; *Discover*.</block>
+  <block id="43fbe4a8201abe6b37503070f0c554c0" category="inline-image-macro">Una schermata della pagina Add Working Environment (Aggiungi ambiente di lavoro) che mostra Google Cloud Platform e Kubernetes Cluster selezionati.</block>
+  <block id="eb2d4b29a1f82dc5edd4825f3698ddd1" category="paragraph"><block ref="eb2d4b29a1f82dc5edd4825f3698ddd1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="adf1c100cb8bc0e9f994246ae08c82e8" category="list-text">Per selezionare un cluster Kubernetes in un altro progetto Google Cloud, fai clic su *Modifica progetto* e scegli un progetto disponibile.</block>
+  <block id="ae30908f664d4ec81d21dac8c0a3c463" category="inline-image-macro">Una schermata della pagina Edit project (Modifica progetto) che mostra l'elenco a discesa dei Google Cloud Projects disponibili.</block>
+  <block id="7bafd42600118bf9ad3665386e67c7ce" category="paragraph"><block ref="7bafd42600118bf9ad3665386e67c7ce" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3bd2670d36094d1a9176b6da93acb1bd" category="paragraph"><block ref="3bd2670d36094d1a9176b6da93acb1bd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1bf577e35a791190a947b88cfeeb58d8" category="paragraph"><block ref="1bf577e35a791190a947b88cfeeb58d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0051c23ce1a6dfb0a01449b18d415ad" category="paragraph"><block ref="c0051c23ce1a6dfb0a01449b18d415ad" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c51edbd9644671669f8a6fc9bdfe66fe" category="summary">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, puoi utilizzare i servizi dati cloud di NetApp per una gestione avanzata dei dati.</block>
+  <block id="7c3dba5dcfefe7c148fb75a35249f81c" category="doc">Utilizza i servizi dati cloud di NetApp con i cluster Kubernetes</block>
+  <block id="d6bbc73a6086ac314349118e0d0d4de3" category="paragraph">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, puoi utilizzare i servizi dati cloud di NetApp per una gestione avanzata dei dati.</block>
+  <block id="9fe3360dab01ce9c0d1ba6e2b65f7740" category="paragraph">È possibile utilizzare il backup e il ripristino di BlueXP per eseguire il backup dei volumi persistenti nello storage a oggetti.</block>
+  <block id="1049611936f50079edb2cfbb3e430d42" category="inline-link-macro">Scopri come proteggere i dati del cluster Kubernetes utilizzando il backup e il ripristino BlueXP</block>
+  <block id="ffef3f044e2dba86d633dbe1ca47e0ab" category="paragraph"><block ref="e426a27d66dd749e3e55c643391e0ce8" category="inline-link-macro-rx"></block>.</block>
+  <block id="020085b46323ffcdcb569d583c9597ca" category="inline-image-macro">Una schermata della pagina Kubernetes in BlueXP backup and recovery che mostra cinque processi di backup per un cluster Kubernetes.</block>
+  <block id="7700de0c0f5f67fa6642e11a7a8430a9" category="paragraph"><block ref="7700de0c0f5f67fa6642e11a7a8430a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09a68e4db95f2514ba15c0664855019a" category="summary">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per rimuovere i cluster dall'area di lavoro.</block>
+  <block id="f9a4b06baa6b1477afa377706cef0f0f" category="doc">Rimuovere i cluster Kubernetes dallo spazio di lavoro</block>
+  <block id="1de96768a7ac64195941be24c27b9e69" category="paragraph">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per rimuovere i cluster dall'area di lavoro.</block>
+  <block id="f33a40ad5d2017c9e1b0e7abd7a5a643" category="list-text">Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.</block>
+  <block id="c3779df0736ecbd3346b30067bbc3d57" category="list-text">Nella parte superiore destra della pagina, selezionare il menu delle azioni e fare clic su *Rimuovi dall'area di lavoro*.</block>
+  <block id="cc684c4b8845d4e51e87b6bf727c1d76" category="inline-image-macro">Una schermata che mostra il menu per rimuovere il cluster Kubernetes dall'area di lavoro.</block>
+  <block id="4d742ed466433397d47332397dc4d3c4" category="paragraph"><block ref="4d742ed466433397d47332397dc4d3c4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ffbd99556cf50096753bfbd7a907b09c" category="list-text">Fare clic su *Remove* (Rimuovi) per confermare la rimozione del cluster dall'area di lavoro. È possibile riscoprire questo cluster in qualsiasi momento.</block>
+  <block id="bcec5055290dea9702824b44b3ed2bff" category="inline-image-macro">Una schermata della pagina che conferma la rimozione del cluster Kubernetes dallo spazio di lavoro.</block>
+  <block id="86a5f92314f48ea7dfb3565a2752a76d" category="paragraph"><block ref="86a5f92314f48ea7dfb3565a2752a76d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6063d5ed0fa76ced94f0f7adbbd7b833" category="paragraph">Il cluster Kubernetes viene rimosso dall'area di lavoro e non è più visibile in Canvas.</block>
+  <block id="b9df8925a665185ffc090378d80c3ca0" category="summary">Dopo aver aggiunto un cluster di Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per confermare un'installazione di Astra Trident compatibile o installare Astra Trident. È necessaria una delle quattro versioni più recenti di Astra Trident.</block>
+  <block id="c949166d6970748c0094c800daa3324a" category="doc">Gestire Astra Trident</block>
+  <block id="5362d84aa85052dc57ee427cc92ef344" category="paragraph">Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per confermare un'installazione di Astra Trident compatibile, installare o aggiornare Astra Trident alla versione più recente o disinstallare Astra Trident.</block>
+  <block id="161d9090769f19a69eef7ef0c229d93d" category="section-title">Astra Trident in BlueXP</block>
+  <block id="62c30bcfbdb4b7c0181a789ede3e749a" category="paragraph">Dopo aver aggiunto i cluster Kubernetes a BlueXP, puoi gestire Astra Trident e i cluster Kubernetes dalla pagina panoramica. Per aprire la pagina panoramica, fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas.</block>
+  <block id="ec6fcae1ba8df077c437ef2026436316" category="section-title">Versioni supportate di Astra Trident</block>
+  <block id="ea355478bf6a72e41e6454dd0be48ae2" category="paragraph">È necessaria una delle quattro versioni più recenti di Astra Trident implementate utilizzando l'operatore Trident, manualmente o utilizzando la mappa Helm. Se Astra Trident non è installato o è installata una versione incompatibile di Astra Trident, il cluster mostrerà che è necessario eseguire un'azione.</block>
+  <block id="54569e194bab3dae1d44eaaa9ad1ab0b" category="inline-link-macro">L'operatore Trident</block>
+  <block id="8153aaea8ca787dd0f6e13cd06ba39b8" category="admonition">Astra Trident implementato con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> non è supportato. Se hai implementato Astra Trident con<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block>, Non è possibile utilizzare BlueXP per gestire i cluster Kubernetes o disinstallare Astra Trident. È necessario <block ref="beced4150254b668093e945aacf7262c" category="inline-link-macro-rx"></block> E reinstallare Astra Trident manualmente utilizzando <block ref="63fe8d185cbbf6a0ce17ed72ff923974" category="inline-link-macro-rx"></block> O in BlueXP con <block ref="f1de51606b29dff0c9b1a92d4a5068f2" category="inline-xref-macro-rx"></block>.</block>
+  <block id="14d9b10c6196045941347a9e85704b50" category="inline-link-macro">Documentazione di Astra Trident</block>
+  <block id="49884bb39e4730239c5590a42f88d306" category="paragraph">Per ulteriori informazioni su Astra Trident, vedere <block ref="d243cca937364184efa824b0525b876a" category="inline-link-macro-rx"></block>.</block>
+  <block id="62286cd48d8328138c2c4d1b71e6fe45" category="section-title">Installare o aggiornare Astra Trident</block>
+  <block id="85476e9aef7545cef68e349b3a81422c" category="paragraph">Puoi rivedere lo stato e la versione dell'installazione di Astra Trident nella pagina panoramica. Se Astra Trident non è già installato o se è installata una versione incompatibile, è possibile gestirla utilizzando BlueXP.</block>
+  <block id="6867d56501a1639e8de0328e96a5d354" category="list-text">Se Astra Trident non è installato, fare clic su *Installa Trident*.</block>
+  <block id="7c729d1891ae54bb841ac8551a0cc665" category="inline-image-macro">Una schermata della pagina delle risorse di K8s che mostra l'assenza dell'installazione di Astra Trident e il pulsante per installare Astra Trident.</block>
+  <block id="fca8d7d1d460e9d7e376d9a8c0436a56" category="paragraph"><block ref="fca8d7d1d460e9d7e376d9a8c0436a56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7d3743c0dc40fd5a7d78e22b9d4f94d4" category="list-text">Se è installata una versione non supportata di Astra Trident, fare clic su *Upgrade Trident* (Aggiorna Trident).</block>
+  <block id="b856d54eb2c982baae9beda550a3c6e4" category="inline-image-macro">Una schermata del processo di aggiornamento di Astra Trident.</block>
+  <block id="fd007b3e14f8b08692b19f1bf6b9ae5b" category="paragraph"><block ref="fd007b3e14f8b08692b19f1bf6b9ae5b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5ff3faebb0ff710340bdbee89a4667ad" category="inline-link-macro">Eseguire l'upgrade con l'operatore</block>
+  <block id="244f5a9f7cb41a54f23539754a6e17b2" category="admonition">Non è possibile utilizzare BlueXP per eseguire l'aggiornamento da Astra Trident versioni precedenti alla 21.01. Per eseguire l'aggiornamento da una versione precedente, fare riferimento a. <block ref="c2b60006c9fadcf65befa6bac681ff72" category="inline-link-macro-rx"></block>.</block>
+  <block id="5af4fd067fdcfc2366829de01d0a1fe4" category="paragraph">È installata l'ultima versione di Astra Trident. È ora possibile aggiungere classi di storage.</block>
+  <block id="43f17763173fe230bdd78477152f5f7d" category="section-title">Disinstallare Astra Trident</block>
+  <block id="83b445d8ff0d72c31d8404121a5105f4" category="paragraph">Se Astra Trident è stato installato utilizzando BlueXP o l'operatore Trident (Helm o manualmente), è possibile disinstallarlo utilizzando BlueXP.</block>
+  <block id="7d4b056f6045b6850c0716327db288b6" category="list-text">Dopo aver disinstallato Astra Trident non è possibile creare nuovi volumi persistenti, ma i volumi esistenti sono ancora disponibili.</block>
+  <block id="324bdc145af29bc671d0caf2a7b498f6" category="list-text">Mentre Astra Trident è disinstallato, il backup non è disponibile.</block>
+  <block id="311bac3bde31940eb5734ccc0f196472" category="list-text">Puoi reinstallare Astra Trident nell'ambiente di lavoro in qualsiasi momento per continuare a gestire i cluster.</block>
+  <block id="58696af88eb7bc52de53be6f3297f99c" category="inline-link-macro">Eseguire la disinstallazione utilizzando l'operatore Trident</block>
+  <block id="3c8ca53356eeccb12428a250663aa881" category="paragraph">La disinstallazione di Astra Trident con BlueXP non rimuove tutti i servizi Astra Trident applicati durante l'installazione. Per rimuovere completamente Astra Trident, incluse tutte le definizioni di risorse personalizzate (CRD) create, fare riferimento a. <block ref="3d29040915e5b5cb57038cab0797dd4f" category="inline-link-macro-rx"></block></block>
+  <block id="77addfb223c3ed99a41d37952c95a6fb" category="list-text">Dalla pagina panoramica, selezionare i puntini di sospensione e *Disinstalla Astra Trident*.</block>
+  <block id="81241d9f0e44951e32c292b050624aba" category="inline-image-macro">Una schermata del menu per disinstallare Astra Trident.</block>
+  <block id="46844a78cea0511267653b2ff244faab" category="paragraph"><block ref="46844a78cea0511267653b2ff244faab" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e36a0095f836afc001b2d9c1edee5e6f" category="list-text">Selezionare *Disinstalla* per confermare e disinstallare Astra Trident.</block>
+  <block id="35019b4b6292627398d74835213fc1d9" category="paragraph">Astra Trident viene disinstallato dall'ambiente di lavoro. Puoi reinstallare Astra Trident in qualsiasi momento.</block>
+  <block id="18f4dd4dcad9491106ca9ad766f15972" category="summary">Con BlueXP puoi iniziare a gestire i cluster Kubernetes in pochi passaggi.</block>
+  <block id="79e470c48afbbe1fa9e042e6403d2459" category="doc">Inizia a utilizzare i cluster Kubernetes</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
+  <block id="c0a71f242f9a20837eeb221262b5ec52" category="paragraph">Utilizzo di <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> Puoi iniziare a gestire i cluster Kubernetes in pochi passaggi.</block>
+  <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">Uno</block>
+  <block id="a2d56436fc6737079209e6c74380c5fb" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> Esaminare i prerequisiti</block>
+  <block id="2fadcb7c66778a6e996282a9d85d69d3" category="paragraph">Assicurarsi che l'ambiente soddisfi i prerequisiti per il tipo di cluster in uso.</block>
+  <block id="b65741d409db3b7986653580cc3988b8" category="inline-link-macro">Requisiti per i cluster Kubernetes in AWS</block>
+  <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
+  <block id="c5be663296cc453aa3076c0cfcedc102" category="inline-link-macro">Requisiti per i cluster Kubernetes in Azure</block>
+  <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
+  <block id="b6511d823d5fc5c8c219b52663e32c20" category="inline-link-macro">Requisiti per i cluster Kubernetes in Google Cloud</block>
+  <block id="2bdb06b2a7060e3efbb60c6fdf551284" category="paragraph"><block ref="2bdb06b2a7060e3efbb60c6fdf551284" category="inline-link-macro-rx"></block></block>
+  <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">Due</block>
+  <block id="72cff0170f097fb9ba504afabcc27830" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> Aggiungi i tuoi cluster Kubernetes a BlueXP</block>
+  <block id="5ba4facc62a7fe1280b842092b4e64e3" category="paragraph">È possibile aggiungere cluster Kubernetes e connetterli a un ambiente di lavoro utilizzando BlueXP.</block>
+  <block id="29eef78ab52bc074b0642baafaa44a77" category="inline-link-macro">Aggiungi un cluster Amazon Kubernetes</block>
+  <block id="187496d0d891ffe76a43f6ffdd995505" category="paragraph"><block ref="187496d0d891ffe76a43f6ffdd995505" category="inline-link-macro-rx"></block></block>
+  <block id="8cae45546ea6e7035e9b798f709fc911" category="inline-link-macro">Aggiungere un cluster Azure Kubernetes</block>
+  <block id="e72a8a52b20d0b466a3152c8c60b4f2b" category="paragraph"><block ref="e72a8a52b20d0b466a3152c8c60b4f2b" category="inline-link-macro-rx"></block></block>
+  <block id="2872769900c1ca485d1628b4eefde308" category="inline-link-macro">Aggiungi un cluster Google Cloud Kubernetes</block>
+  <block id="09e2861e1b9bab7606bd9fd36b62d621" category="paragraph"><block ref="09e2861e1b9bab7606bd9fd36b62d621" category="inline-link-macro-rx"></block></block>
+  <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">Quattro</block>
+  <block id="ea57f7b4ce8ce45779ed65b7d0c3cd80" category="paragraph-title"><block ref="569b2be0fb2eea776857d64ee5106536" category="inline-image-macro-rx" type="image"></block> Avviare il provisioning dei volumi persistenti</block>
+  <block id="6fc0464220dc386a37007468b2c94086" category="paragraph">Richiedere e gestire volumi persistenti utilizzando interfacce e costrutti Kubernetes nativi. BlueXP crea classi di storage NFS e iSCSI che è possibile utilizzare per il provisioning di volumi persistenti.</block>
+  <block id="fc0f20615e6c250961a9e88b2929444b" category="inline-link-macro">Scopri di più sul provisioning del tuo primo volume con Astra Trident</block>
+  <block id="28eb70a7fd7de45b7957d03e5f3d4554" category="paragraph"><block ref="439da74acd283499ba63209cd4e1e52e" category="inline-link-macro-rx"></block>.</block>
+  <block id="3442e8b715f58fe8a7e64ea2efc92fed" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> Gestisci i cluster con BlueXP</block>
+  <block id="22a7b4f5dd259ae78aeff6a22466a375" category="paragraph">Dopo aver aggiunto i cluster Kubernetes a BlueXP, è possibile gestire i cluster dalla pagina delle risorse di BlueXP.</block>
+  <block id="f500d0f02d11fd7c61fe2f5da39074f0" category="inline-link-macro">Scopri come gestire i cluster Kubernetes.</block>
+  <block id="35cbaff5433d00a9b082ae5c280b5e9e" category="paragraph"><block ref="35cbaff5433d00a9b082ae5c280b5e9e" category="inline-link-macro-rx"></block></block>
+  <block id="fbb4c4e41bf29d56afd94a8150a4fc4d" category="summary">Astra Trident è un progetto open source completamente supportato gestito da NetApp. Astra Trident si integra in modo nativo con Kubernetes e il suo framework per volumi persistenti per eseguire il provisioning e la gestione dei volumi da sistemi che eseguono qualsiasi combinazione di piattaforme storage NetApp.</block>
+  <block id="8f696d5a5f9b66b14465e6edd8c0ec21" category="doc">La gestione dei dati di Kubernetes in BlueXP</block>
+  <block id="d202d8021b40bfbe11235a5a65c0fe8c" category="inline-link-macro">Scopri di più su Trident</block>
+  <block id="4f63c1d4acd536bd5b9a9745d3f20e7b" category="paragraph">Astra Trident è un progetto open source completamente supportato gestito da NetApp. Astra Trident si integra in modo nativo con Kubernetes e il suo framework per volumi persistenti per eseguire il provisioning e la gestione dei volumi da sistemi che eseguono qualsiasi combinazione di piattaforme storage NetApp. <block ref="dd2206fc656d0a859de4039d89433dfe" category="inline-link-macro-rx"></block>.</block>
+  <block id="e30f3ee6790404c5b010673da880568c" category="paragraph">Utilizzando un <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Cloud Manager) e una versione compatibile di Astra Trident implementata utilizzando l'operatore Trident, è possibile:</block>
+  <block id="c8e0b61e09c13c9a6302fff8b355d22c" category="list-text">Aggiungere e gestire i cluster Kubernetes</block>
+  <block id="a328809c4e80884ded58a673a70bcad8" category="inline-link-macro">Installare, aggiornare o disinstallare Astra Trident</block>
+  <block id="f21b0b2390c3041251b997210a7cf24f" category="list-text"><block ref="f21b0b2390c3041251b997210a7cf24f" category="inline-link-macro-rx"></block></block>
+  <block id="8d9aa96de7c286ee7d10cfa821025a6f" category="inline-link-macro">Aggiungere e rimuovere classi di storage</block>
+  <block id="ce62c2574c8872c1fed16a5a0a8d2840" category="list-text"><block ref="ce62c2574c8872c1fed16a5a0a8d2840" category="inline-link-macro-rx"></block></block>
+  <block id="5d330c78fdbd034ad3466dadfcb8a623" category="list-text"><block ref="5d330c78fdbd034ad3466dadfcb8a623" category="inline-link-macro-rx"></block></block>
+  <block id="9c153b8dfcd24e0e7636fce1b4bc0046" category="inline-link-macro">Rimuovere i cluster Kubernetes</block>
+  <block id="1055dc3b82f79fd0cc2d70e2b80ad343" category="list-text"><block ref="95401bdeb9da6ac759821eb6cb403909" category="inline-link-macro-rx"></block> dallo spazio di lavoro</block>
+  <block id="eb10d90f9780d4b2ba3926ffaaa63b04" category="inline-link-macro">Attivare o visualizzare il backup e ripristino BlueXP</block>
+  <block id="de6156e46a0797be4d22df59cc5bf2d9" category="list-text"><block ref="de6156e46a0797be4d22df59cc5bf2d9" category="inline-link-macro-rx"></block></block>
+  <block id="acb13b8754d0f14e58090cb4826d589f" category="section-title">Implementazioni Kubernetes supportate</block>
+  <block id="8b4d25df20eadf8dd52c5fe961669cb3" category="paragraph">BlueXP supporta cluster Kubernetes gestiti in esecuzione in:</block>
+  <block id="46a72d9af542e3e84ec5f5f3a72f54c1" category="inline-link-macro">Amazon Elastic Kubernetes Service (Amazon EKS)</block>
+  <block id="79ee39f20c9b076e39473401e33c5f12" category="list-text"><block ref="79ee39f20c9b076e39473401e33c5f12" category="inline-link-macro-rx"></block></block>
+  <block id="f3bd1985b243e9691bbbd63c6702344b" category="inline-link-macro">Servizio Kubernetes di Microsoft Azure (AKS)</block>
+  <block id="df02ebf4bbdbd23dcf4001f89e193718" category="list-text"><block ref="df02ebf4bbdbd23dcf4001f89e193718" category="inline-link-macro-rx"></block></block>
+  <block id="974030a30a48754684d05541fd5e96c9" category="inline-link-macro">Google Kubernetes Engine (GKE)</block>
+  <block id="0d66e7de3df254882c2f4ec49e44ba2f" category="list-text"><block ref="0d66e7de3df254882c2f4ec49e44ba2f" category="inline-link-macro-rx"></block></block>
+  <block id="213acaa88814071409958acdc9192518" category="section-title">Implementazioni di Astra Trident supportate</block>
+  <block id="510a1dab177e7ff08d50b9ab0588f804" category="inline-link-macro">Implementato utilizzando l'operatore Trident</block>
+  <block id="8f13bd8ba84d92d65e6ae6ebc5f6263e" category="paragraph">Una delle quattro versioni più recenti di Astra Trident <block ref="8da7bbab7c5d8930c9f1dd2985917853" category="inline-link-macro-rx"></block> è obbligatorio.</block>
+  <block id="76bef843768c13f5b026423fd5e3f21d" category="paragraph">Puoi installare o aggiornare alla versione più recente di Astra Trident direttamente da BlueXP.</block>
+  <block id="301f4e6b65ae846f84074dd048ca5b79" category="inline-link-macro">Esaminare i prerequisiti di Astra Trident</block>
+  <block id="a4505b3bac04e5dbfea022e8773b5c49" category="paragraph"><block ref="a4505b3bac04e5dbfea022e8773b5c49" category="inline-link-macro-rx"></block></block>
+  <block id="c9ece1f2227c56942142d90092ca7fd2" category="section-title">Storage back-end supportato</block>
+  <block id="8e932625bb22cba770e5b9207060175a" category="paragraph">NetApp Astra Trident deve essere installato su ogni cluster Kubernetes e Cloud Volumes ONTAP o Amazon FSX per ONTAP deve essere configurato come storage back-end per i cluster.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Costo</block>
+  <block id="3d2d606b1ba09a7c7d879ebe24c66f00" category="paragraph">Non sono previsti costi per _scoprire_ i cluster Kubernetes in BlueXP, ma verrà addebitato il costo del backup dei volumi persistenti utilizzando Cloud Backup Service.</block>
+  <block id="a55cd5fb90bc11e37e035be0482b46de" category="summary">Aggiungi i cluster Kubernetes gestiti a BlueXP per una gestione avanzata dei dati.</block>
+  <block id="335c34584cec7a2f7345f04424506de1" category="doc">Documentazione sui cluster Kubernetes</block>
+  <block id="11f9aaa089264e1c493971bc87da74b1" category="summary">Scopri le novità di Kubernetes in BlueXP.</block>
+  <block id="87675ab25dc7f237387bffff0f0b5b0a" category="doc">Novità di Kubernetes in BlueXP</block>
+  <block id="bb9d6271eda9dfe1e95490ac0c6196e0" category="paragraph">Scopri le novità di Kubernetes in BlueXP (Cloud Manager).</block>
+  <block id="88c49608e723add593f5becc8bd9a968" category="section-title">02 aprile 2023</block>
+  <block id="7786076739da628161f45de338cd6e69" category="inline-link-macro">Disinstallare Astra Trident</block>
+  <block id="ffb0a040d2831585e0b568e5514270de" category="list-text">Ora puoi farlo <block ref="16c9025f993808479cd22f07cd778a2c" category="inline-link-macro-rx"></block> Che è stato installato utilizzando l'operatore Trident o BlueXP.</block>
+  <block id="3aea41413b60d0894823e739f01efcbb" category="list-text">Sono stati apportati miglioramenti all'interfaccia utente e sono state aggiornate le schermate nella documentazione.</block>
+  <block id="eea1e3b9ecdd5e32692761a0a78b9463" category="section-title">05 marzo 2023</block>
+  <block id="ed9855757b31d516a4fa8f955edec2eb" category="list-text">Kubernetes in BlueXP supporta ora Astra Trident 23.01.</block>
+  <block id="88268cce7d1b83c765c3f7010df80df5" category="section-title">06 novembre 2022</block>
+  <block id="eb3b05e2bcc0acdca8f3706dc6168810" category="inline-link-macro">definizione delle classi di storage</block>
+  <block id="084fbbb062290ef487eac98d44edd278" category="paragraph">Quando <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>, è ora possibile abilitare lo storage economy di classe storage per lo storage a blocchi o su file system.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 settembre 2022</block>
+  <block id="d8d8980dd9fc5d0937a35fea8cb24808" category="paragraph">Ora puoi importare cluster OpenShift autogestiti in Cloud Manager.</block>
+  <block id="b77adae4ee23d10b92f9545417611303" category="inline-link-macro">Requisiti per i cluster Kubernetes in OpenShift</block>
+  <block id="fd4ea134fa6bbf226ead48569ec25aaa" category="list-text"><block ref="fd4ea134fa6bbf226ead48569ec25aaa" category="inline-link-macro-rx"></block></block>
+  <block id="f35dd6f069daa276f73035ff894db1e3" category="inline-link-macro">Importare un cluster OpenShift in Cloud Manager</block>
+  <block id="12b9f0d46f95d9c0c2f1be83526fc206" category="list-text"><block ref="12b9f0d46f95d9c0c2f1be83526fc206" category="inline-link-macro-rx"></block></block>
+  <block id="3f10ba55f7b5ee2ce092504fcea72477" category="section-title">31 luglio 2022</block>
+  <block id="5b68f6193aeecc12614fe4ce8bedf31e" category="list-text">Utilizzando il nuovo<block ref="370f6eb5f77041c4f839e5e74b5876d0" prefix=" " category="inline-code"></block> Nella classe di storage e nelle configurazioni YAML di backup e ripristino, Cloud Manager può ora monitorare i cluster Kubernetes per le modifiche apportate al backend del cluster e abilitare automaticamente il backup per nuovi volumi persistenti se è stato configurato il backup automatico sul cluster.</block>
+  <block id="19e7864b32363d7ba3bb16a024e95d79" category="list-text">Quando <block ref="44765f3a3e8511cc80b0083ae1e5f436" category="inline-link-macro-rx"></block>, è ora possibile specificare un tipo di file system (fstype) per lo storage a blocchi.</block>
+  <block id="1511b856d0328cfba458b8f83c2e94e3" category="section-title">3 luglio 2022</block>
+  <block id="3b5790878c6505820d5eed0428e827bb" category="list-text">Se Astra Trident è stato implementato utilizzando l'operatore Trident, è ora possibile eseguire l'aggiornamento alla versione più recente di Astra Trident utilizzando Cloud Manager.</block>
+  <block id="26317664fb1c4e8b3a500a7b1e46a4e7" category="inline-link-macro">Installare e gestire Astra Trident</block>
+  <block id="74f5fa93248faf352ebad3f966bf3b55" category="paragraph"><block ref="74f5fa93248faf352ebad3f966bf3b55" category="inline-link-macro-rx"></block></block>
+  <block id="412d8f1a8f03a7ee8f0983e7ecafe5e4" category="list-text">È ora possibile trascinare il cluster Kubernetes e rilasciarlo nell'ambiente di lavoro AWS FSX per ONTAP per aggiungere una classe di storage direttamente da Canvas.</block>
+  <block id="2556925e0b340fdd647987c6af7fbee9" category="paragraph"><block ref="2556925e0b340fdd647987c6af7fbee9" category="inline-link-macro-rx"></block></block>
+  <block id="62ee9336109ed1c4538423613b856682" category="section-title">6 giugno 2022</block>
+  <block id="62825001719fa641c3a8235d2a324b31" category="paragraph">Cloud Manager ora supporta Amazon FSX per ONTAP come storage back-end.</block>
+  <block id="19f4ed17c6ec00f67063b70e40bfc661" category="section-title">4 maggio 2022</block>
+  <block id="6401d12bcac1f01899ab494a0a6d8edb" category="section-title">Trascinare e rilasciare per aggiungere la classe di storage</block>
+  <block id="0f808082ee99c2acfbcb1661162034f6" category="paragraph">È ora possibile trascinare il cluster Kubernetes e rilasciarlo nell'ambiente di lavoro Cloud Volumes ONTAP per aggiungere una classe di storage direttamente da Canvas.</block>
+  <block id="ad806d4b803a5aa7358400786d14dec0" category="section-title">4 aprile 2022</block>
+  <block id="ecee73066145d2e6f1b75b79d2af7514" category="section-title">Gestire i cluster Kubernetes utilizzando la pagina delle risorse di Cloud Manager</block>
+  <block id="06ad314b340900d226b1196e1fe289e9" category="inline-link-macro">Avvio rapido</block>
+  <block id="a84f0102d02caeeb1c0e554f032c6e35" category="paragraph">Kubernetes Cluster Management ha ora migliorato l'integrazione direttamente dall'ambiente di lavoro del cluster. Un nuovo <block ref="a7ce12c998c9439767584776d325ea5b" category="inline-link-macro-rx"></block> ti consente di iniziare a lavorare rapidamente.</block>
+  <block id="4e9fabf2f81510967e324cfc9c54b640" category="paragraph">È ora possibile eseguire le seguenti operazioni dalla pagina delle risorse del cluster.</block>
+  <block id="b4940c8b54941154dff3675bb279c96f" category="list-text"><block ref="b4940c8b54941154dff3675bb279c96f" category="inline-link-macro-rx"></block></block>
+  <block id="fd0987c679e587c89c7d5551c641f09e" category="inline-link-macro">Aggiungere classi di storage</block>
+  <block id="be2f7669a1d3d4dec877a85297de18ec" category="list-text"><block ref="be2f7669a1d3d4dec877a85297de18ec" category="inline-link-macro-rx"></block></block>
+  <block id="6a38c17b4adfb6fade3691d6bab9976a" category="list-text"><block ref="6a38c17b4adfb6fade3691d6bab9976a" category="inline-link-macro-rx"></block></block>
+  <block id="aa7542e939f8e623254af69a1fcd8e2b" category="list-text"><block ref="aa7542e939f8e623254af69a1fcd8e2b" category="inline-link-macro-rx"></block></block>
+  <block id="41e3782291be693bb1f948094d98229d" category="inline-link-macro">Abilitare i servizi dati</block>
+  <block id="6d6f9b61b474cb16598eda49f24d6452" category="list-text"><block ref="6d6f9b61b474cb16598eda49f24d6452" category="inline-link-macro-rx"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">27 febbraio 2022</block>
+  <block id="572154af04ccf23551e78649302c6f7b" category="section-title">Supporto per i cluster Kubernetes in Google Cloud</block>
+  <block id="45cbe8fd766702dd0ad0022cbde336ce" category="paragraph">Ora puoi aggiungere e gestire cluster gestiti di Google Kubernetes Engine (GKE) e cluster di Kubernetes autogestiti in Google Cloud utilizzando Cloud Manager.</block>
+  <block id="f1b377c7d4b75112665bc3e7ee7c340b" category="inline-link-macro">Scopri come iniziare a utilizzare i cluster Kubernetes in Google Cloud</block>
+  <block id="6fcf7676e8aae6ddc7b3f104efce8aab" category="paragraph"><block ref="5416dc5374fce9a230fcbd66732d82fb" category="inline-link-macro-rx"></block>.</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">11 gennaio 2022</block>
+  <block id="a654243ef958097102b375693f5579bb" category="section-title">Supporto per i cluster Kubernetes in Azure</block>
+  <block id="8856f1df28666fb615f0de120179dd80" category="paragraph">Ora puoi aggiungere e gestire cluster di Azure Kubernetes gestiti (AKS) e cluster di Kubernetes autogestiti in Azure utilizzando Cloud Manager.</block>
+  <block id="8e2d16714747b48d3d5d0993c14ca91c" category="inline-link-macro">Introduzione ai cluster Kubernetes in Azure</block>
+  <block id="7f3fba83864e800e754c057187c91c9a" category="paragraph"><block ref="7f3fba83864e800e754c057187c91c9a" category="inline-link-macro-rx"></block></block>
+  <block id="f61163b681442ac500a8018c87241770" category="section-title">28 novembre 2021</block>
+  <block id="1dca9cae8959517f7a37b2277e33b485" category="section-title">Supporto per i cluster Kubernetes in AWS</block>
+  <block id="40396b2dd864537704e1a71862a49298" category="paragraph">Ora puoi aggiungere i cluster Kubernetes gestiti a Canvas di Cloud Manager per una gestione avanzata dei dati.</block>
+  <block id="9bc9d366922b7839c22a9d3f44b59ab5" category="list-text">Scopri i cluster Amazon EKS</block>
+  <block id="23225952418ffe65dda9099dae1c476c" category="list-text">Eseguire il backup dei volumi persistenti utilizzando Cloud Backup</block>
+  <block id="d5f64dd836c164f17e32528a31fdeea5" category="inline-link-macro">Scopri di più sul supporto di Kubernetes</block>
+  <block id="4e8dc58f86c5b2a120ce6625e2c53adf" category="paragraph"><block ref="ca8428b0b36dc1f5bee5c45f13cb9819" category="inline-link-macro-rx"></block>.</block>
+  <block id="5629dc3c8dacdcb31e6d3bf6d7586e32" category="admonition">Il servizio Kubernetes esistente (disponibile tramite la scheda *K8s*) è stato obsoleto e verrà rimosso in una release futura.</block>
+  <block id="a895f05376600e7bc32dbc4f67005168" category="summary">Prima di poter aggiungere un cluster Amazon Elastic Kubernetes Service (Amazon EKS) a BlueXP, è necessario assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="90d6ace9ee6fceabcd67dc1494bdf5d6" category="paragraph">Puoi aggiungere cluster Amazon Elastic Kubernetes Service (EKS) gestiti o cluster Kubernetes autogestiti su AWS a BlueXP. Prima di aggiungere i cluster a BlueXP, è necessario assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="f56b205821b231a157cc0e3315bc72a6" category="admonition">Questo argomento utilizza _Kubernetes cluster_ dove la configurazione è la stessa per i cluster EKS e Kubernetes autogestiti. Viene specificato il tipo di cluster in cui la configurazione differisce.</block>
+  <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">Requisiti</block>
+  <block id="086e6c16e3fe8e13c336612ef636aa02" category="list-text">Astra Trident</block>
+  <block id="22d8ff517038ce2f90897c500f9ea50f" category="inline-link-macro">esaminare i prerequisiti</block>
+  <block id="c163c9cd4f3c18d9d754d2bb029bafca" category="list-text">È necessaria una delle quattro versioni più recenti di Astra Trident. Puoi installare o aggiornare Astra Trident direttamente da BlueXP. Dovresti <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Prima di installare Astra Trident.</block>
+  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
+  <block id="f42c4f194d4364b14558c35f61d5d363" category="inline-link">Consultare i documenti di Astra Trident per la procedura di configurazione</block>
+  <block id="acc4a07cbf9763718c5eb67fd34340d7" category="list-text">Cloud Volumes ONTAP per AWS deve essere configurato come storage back-end per il cluster.<block ref="0ffa37c66c18870214970164d37847a6" category="inline-link-rx"></block>.</block>
+  <block id="6bb1f60bf0d00924a1bba54557e1feae" category="list-text">Connettore BlueXP</block>
+  <block id="b33538162293d647c27336c767456660" category="inline-xref">Scopri di più di seguito</block>
+  <block id="1657d67161bf0403482930d6cb81a5ba" category="list-text">Un connettore deve essere in esecuzione in AWS con le autorizzazioni richieste. <block ref="666096be9a7c0cee4f03722fd9c8c93c" category="inline-xref-macro-rx"></block>.</block>
+  <block id="66a0461d2d8cd670baf00d1c2bb16adb" category="list-text">Connettività di rete</block>
+  <block id="3ac74e864b0cfab242c223c39c9a410d" category="list-text">È necessaria la connettività di rete tra il cluster Kubernetes e il connettore e tra il cluster Kubernetes e Cloud Volumes ONTAP. <block ref="d3675c332862dea5fd502e53958a9814" category="inline-xref-macro-rx"></block>.</block>
+  <block id="8b31600cafa96c8a64d2b15606525b24" category="list-text">Autorizzazione RBAC</block>
+  <block id="6415585679e8669958974ee45b65dfd2" category="list-text">Il ruolo BlueXP Connector deve essere autorizzato su ciascun cluster Kubernetes. <block ref="ed89a5c7598981ce49ff49e89b6578d7" category="inline-xref-macro-rx"></block>.</block>
+  <block id="da8731bd4bc0634c2982581f97cbf070" category="section-title">Preparare un connettore</block>
+  <block id="437a030a28b695be456744f4081e2d60" category="paragraph">In AWS è necessario un connettore BlueXP per rilevare e gestire i cluster Kubernetes. Sarà necessario creare un nuovo connettore o utilizzare un connettore esistente con le autorizzazioni richieste.</block>
+  <block id="63959f97faa9987d540350850a41505e" category="section-title">Creare un nuovo connettore</block>
+  <block id="7462e2b2097ede16db64534b30f77751" category="paragraph">Seguire la procedura descritta in uno dei collegamenti riportati di seguito.</block>
+  <block id="a42616d3c3ebba497b57aee237328d50" category="inline-link-macro">Creare un connettore da BlueXP</block>
+  <block id="92ed323a7d35268a55e425c9a9bcf4f6" category="list-text"><block ref="f2f8993ccdc30f33da43140f4a7a98dc" category="inline-link-macro-rx"></block> (consigliato)</block>
+  <block id="e96bc5b1e40abf07ff070b96c65057db" category="inline-link-macro">Creare un connettore da AWS Marketplace</block>
+  <block id="946fbd834f2d7dd02243acdd3cd2af41" category="list-text"><block ref="946fbd834f2d7dd02243acdd3cd2af41" category="inline-link-macro-rx"></block></block>
+  <block id="1bc7cdde75a8dfff8d21690bae5558b4" category="inline-link-macro">Installare il connettore su un host Linux esistente in AWS</block>
+  <block id="6daf52898d494bb924b8e794cabb00ca" category="list-text"><block ref="6daf52898d494bb924b8e794cabb00ca" category="inline-link-macro-rx"></block></block>
+  <block id="400029e32a94249459e83aadc7247559" category="section-title">Aggiungere le autorizzazioni richieste a un connettore esistente</block>
+  <block id="91377322d2f9077c583ad8a53facc870" category="paragraph">A partire dalla release 3.9.13, tutti i _connettori appena creati includono tre nuove autorizzazioni AWS che consentono il rilevamento e la gestione dei cluster Kubernetes. Se è stato creato un connettore prima di questa release, sarà necessario modificare il criterio esistente per il ruolo IAM del connettore per fornire le autorizzazioni.</block>
+  <block id="f724607cfeefa3c0719c729025f470e2" category="list-text">Accedere alla console AWS e aprire il servizio EC2.</block>
+  <block id="4ae80e0fef4a25821edf680bfe5e78f1" category="list-text">Selezionare l'istanza del connettore, fare clic su *Security* e fare clic sul nome del ruolo IAM per visualizzare il ruolo nel servizio IAM.</block>
+  <block id="b5dbd801d99fd61c37c71bb1c6e8598d" category="inline-image-macro">Una schermata della console AWS che mostra il nome del ruolo IAM nella scheda Security (sicurezza).</block>
+  <block id="443963254a1729321efbfdbd4e2396c8" category="paragraph"><block ref="443963254a1729321efbfdbd4e2396c8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="59524cf8612a689e4d9ed61067454937" category="list-text">Nella scheda *Permissions*, espandere il criterio e fare clic su *Edit policy*.</block>
+  <block id="4b1c304f38c097ba7776b76e4e099d42" category="inline-image-macro">Una schermata della console AWS che mostra il pulsante Edit policy (Modifica policy) nella scheda Permissions (autorizzazioni).</block>
+  <block id="c933a937af3266562155099a4ad44e14" category="paragraph"><block ref="c933a937af3266562155099a4ad44e14" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f96de5b5f8572ecb3c2c80e8156181f8" category="list-text">Fare clic su *JSON* e aggiungere le seguenti autorizzazioni nella prima serie di azioni:</block>
+  <block id="624105df248e28f049a2f58eb3552d40" category="list-text">ec2:DescripteRegions</block>
+  <block id="b272876bb8d27e636bb70f2dce15cb34" category="list-text">eks:ListClusters</block>
+  <block id="457a1b6178515d282232753f808e8cf5" category="list-text">eks: DescripbeCluster</block>
+  <block id="53ac904630fdbb4d62f208e001934c7c" category="list-text">iam:GetInstanceProfile</block>
+  <block id="e72ae7637ee4c3c3135530cf7abf3ea9" category="inline-link">Visualizza il formato JSON completo per la policy</block>
+  <block id="622535c1c45bf857c104b24a29a940e1" category="paragraph"><block ref="622535c1c45bf857c104b24a29a940e1" category="inline-link-rx"></block></block>
+  <block id="e42b9312c7c895b2124ac455c7ffecd4" category="list-text">Fare clic su *Review policy* (esamina policy), quindi su *Save changes* (Salva modifiche).</block>
+  <block id="1fd9ae23d87dd564d70e8a3a729edec0" category="section-title">Esaminare i requisiti di rete</block>
+  <block id="a5a2f901b1e6769a95c7cafa0f439cd3" category="paragraph">È necessario fornire la connettività di rete tra il cluster Kubernetes e il connettore e tra il cluster Kubernetes e il sistema Cloud Volumes ONTAP che fornisce lo storage back-end al cluster.</block>
+  <block id="56e9d469c8477e6bb82ad093d3183ab1" category="list-text">Ogni cluster Kubernetes deve disporre di una connessione in entrata dal connettore</block>
+  <block id="c5adca96e38b07f7e7639223721faa0d" category="list-text">Il connettore deve disporre di una connessione in uscita a ciascun cluster Kubernetes sulla porta 443</block>
+  <block id="def71c390b8b392e82f82a11e649e278" category="paragraph">Il modo più semplice per fornire questa connettività consiste nell'implementare il connettore e Cloud Volumes ONTAP nello stesso VPC del cluster Kubernetes. In caso contrario, è necessario impostare una connessione di peering VPC tra i diversi VPC.</block>
+  <block id="7a906c5ea6addc67fc90c3ddd9bb398c" category="paragraph">Ecco un esempio che mostra ogni componente dello stesso VPC.</block>
+  <block id="c748724ab2608f12017a5f5009be806c" category="inline-image-macro">Diagramma architetturale di un cluster EKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP nello stesso VPC.</block>
+  <block id="1d872cdbcf45bebdc1ef67eb923e83c3" category="paragraph"><block ref="1d872cdbcf45bebdc1ef67eb923e83c3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="79517ea21ed6f08b98b060f838f73457" category="paragraph">Ecco un altro esempio che mostra un cluster EKS in esecuzione in un VPC diverso. In questo esempio, il peering VPC fornisce una connessione tra il VPC per il cluster EKS e il VPC per il connettore e Cloud Volumes ONTAP.</block>
+  <block id="7b8db3f69d5bafb451e767f87793cb4b" category="inline-image-macro">Diagramma architetturale di un cluster EKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP in un VPC separato.</block>
+  <block id="f6671ef10e842ca53232fd0b982400b1" category="paragraph"><block ref="f6671ef10e842ca53232fd0b982400b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b9940ca80ae2598fdb5c6c402f1f1dc1" category="section-title">Impostare l'autorizzazione RBAC</block>
+  <block id="3af3ead39a5eec5783d926f19a9b6bfe" category="paragraph">È necessario autorizzare il ruolo del connettore su ciascun cluster Kubernetes in modo che il connettore possa rilevare e gestire un cluster.</block>
+  <block id="d1c51ee4ad82e26c7069e126c0a5d25d" category="paragraph">Per abilitare funzionalità diverse è necessaria un'autorizzazione diversa.</block>
+  <block id="6b3760e9ce2bfd92685feda2753e312f" category="list-text">Backup e ripristino</block>
+  <block id="2dcb994cc66baaaa5ac5f51a666cc470" category="list-text">Il backup e il ripristino richiedono solo un'autorizzazione di base.</block>
+  <block id="a98bab458877b0457a2c3a9d497d4c28" category="list-text">È necessaria un'autorizzazione estesa per aggiungere classi di storage utilizzando BlueXP e monitorare il cluster per rilevare eventuali modifiche al backend.</block>
+  <block id="e38848cde65bc177038607eba51773c3" category="list-text">Installare Astra Trident</block>
+  <block id="0b8291e09c9132ced81e011fafd4e6f6" category="list-text">Devi fornire l'autorizzazione completa per BlueXP per installare Astra Trident.</block>
+  <block id="f7222df6cb8751e5170e0c080b1d9c8b" category="admonition">Durante l'installazione di Astra Trident, BlueXP installa il backend Astra Trident e il segreto Kubernetes che contiene le credenziali che Astra Trident deve comunicare con il cluster di storage.</block>
+  <block id="33ebb2dacbde969dd24700b6e4dbe435" category="list-text">Creare un ruolo del cluster e un'associazione di ruoli.</block>
+  <block id="363b65cde3a58a4944b673e9d7fce91c" category="list-text">Puoi personalizzare l'autorizzazione in base ai tuoi requisiti.</block>
+  <block id="515f76789d2dca7dac91e44bba61e4f7" category="open-title">Backup/ripristino</block>
+  <block id="0653aaf657fc7447bc8ef9afc51f9214" category="paragraph">Aggiungere l'autorizzazione di base per abilitare il backup e il ripristino per i cluster Kubernetes.</block>
+  <block id="7672a092783c4348b96b40ea2dcf6681" category="open-title">Classi di storage</block>
+  <block id="ef8cb07eb709ab2dd77c5197292f1ad7" category="paragraph">Aggiunta di autorizzazioni estese per aggiungere classi di storage utilizzando BlueXP.</block>
+  <block id="a108a9c48040b2343bc708a6b5ed0d22" category="open-title">Installazione di Trident</block>
+  <block id="52964b35567ba6adef127cdd68d2fa70" category="paragraph">Utilizzare la riga di comando per fornire l'autorizzazione completa e abilitare BlueXP per installare Astra Trident.</block>
+  <block id="26b09dacbaf5084bbe92bfa4d75feba8" category="list-text">Applicare la configurazione a un cluster.</block>
+  <block id="f08cfbb10dc9216a72c9d59da3c626b8" category="list-text">Creare un mapping di identità per il gruppo di autorizzazioni.</block>
+  <block id="bcac99b7c9956d05f17a4e4f9649da71" category="open-title">Utilizzare eksctl</block>
+  <block id="3fbd08713a848d604236ac7651dfbe62" category="paragraph">Utilizzare eksctl per creare una mappatura delle identità IAM tra un cluster e il ruolo IAM per BlueXP Connector.</block>
+  <block id="836c1d30babd0339206570a66bcbb4f3" category="inline-link">Per istruzioni complete, consultare la documentazione eksctl</block>
+  <block id="1e37bf365a6041e37e34936645ebc0a8" category="paragraph"><block ref="1119b51b5b352ff18c686869eb8e6d24" category="inline-link-rx"></block>.</block>
+  <block id="13225b5885ac45d1b5d3019c9de2e513" category="paragraph">Di seguito viene fornito un esempio.</block>
+  <block id="a36cee8f656cd9e61ae5593885084071" category="open-title">Modifica aws-auth</block>
+  <block id="278d5480d444847e28d7f1c72d2838f3" category="paragraph">Modificare direttamente aws-auth ConfigMap per aggiungere l'accesso RBAC al ruolo IAM per BlueXP Connector.</block>
+  <block id="434f77de052a92ee529d95ba80f3bab4" category="inline-link">Per istruzioni complete, consultare la documentazione di AWS EKS</block>
+  <block id="05dcb2fa0de0a4549322d783d2f5e5fb" category="paragraph"><block ref="7af1dbb48bd59e8f995e1a97be9e70f8" category="inline-link-rx"></block>.</block>
+  <block id="dabaf1b4623d38c77af719e0886028d4" category="summary">È possibile aggiungere e gestire cluster OpenShift Kubernetes autogestiti utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="bfa07c102504658f2166cb96f8328f96" category="list-text">Cloud Volumes ONTAP deve essere configurato come storage back-end per il cluster.<block ref="0ffa37c66c18870214970164d37847a6" category="inline-link-rx"></block>.</block>
+  <block id="2841ec9c6e4ef3de87ea802a746f2041" category="list-text">Per importare e gestire i cluster Kubernetes è necessario un connettore BlueXP. È necessario creare un nuovo connettore o utilizzare un connettore esistente che disponga delle autorizzazioni necessarie per il provider cloud:</block>
+  <block id="78f4011ce4eec11823de490a29f344e7" category="inline-link-macro">Connettore AWS</block>
+  <block id="cffb555a0390870f6d957bab2b87008e" category="list-text"><block ref="cffb555a0390870f6d957bab2b87008e" category="inline-link-macro-rx"></block></block>
+  <block id="625f50cfccef81e43215d5f35b6122fe" category="inline-link-macro">Connettore Azure</block>
+  <block id="c8a8cbc981f0028a05bbbdbdef98749c" category="list-text"><block ref="c8a8cbc981f0028a05bbbdbdef98749c" category="inline-link-macro-rx"></block></block>
+  <block id="6d75f957aed766005dc3be4d9f8c4ec5" category="inline-link-macro">Google Cloud Connector</block>
+  <block id="e51199bdde0640d2bca477ecdc555e8f" category="list-text"><block ref="e51199bdde0640d2bca477ecdc555e8f" category="inline-link-macro-rx"></block></block>
+  <block id="9703b589f82c3c63870b38bf11559988" category="list-text">È necessaria la connettività di rete tra il cluster Kubernetes e il connettore e tra il cluster Kubernetes e Cloud Volumes ONTAP.</block>
+  <block id="890de07cb51c2692baea480106b633e1" category="list-text">File di configurazione di Kubernetes (kubeconfig) con autorizzazione RBAC</block>
+  <block id="01c29ea434ec706b9c6a08114a6edec6" category="list-text">Per importare i cluster OpenShift, è necessario un file kubeconfig con l'autorizzazione RBAC richiesta per abilitare funzionalità diverse. <block ref="e356c2da27abb1a00cc68449c7fb7c0f" category="inline-xref-macro-rx"></block>.</block>
+  <block id="71555b5b57250c45d25fb80d40ba1a02" category="list-text">Backup e ripristino: Il backup e il ripristino richiedono solo un'autorizzazione di base.</block>
+  <block id="3912b03c57bc788f09b146f63dcbeeee" category="list-text">Aggiunta di classi di storage: È richiesta un'autorizzazione estesa per aggiungere classi di storage utilizzando BlueXP e monitorare il cluster per rilevare eventuali modifiche al backend.</block>
+  <block id="774755574ca1beb1f22897e10f40e2f8" category="list-text">Installare Astra Trident: Devi fornire l'autorizzazione completa per BlueXP per installare Astra Trident.</block>
+  <block id="d35cb258bf38db8a375c6b851aef5d80" category="section-title">Creare un file kubeconfig</block>
+  <block id="cdca0da1d2011ac8290613208cd27183" category="paragraph">Utilizzando la CLI di OpenShift, creare un file kubeconfig da importare in BlueXP.</block>
+  <block id="6bc1e2f01411b6d08baccbe5ffe9dc00" category="list-text">Accedere alla CLI di OpenShift utilizzando<block ref="a9902f312ee813dfa0df20ecdd92cbfa" prefix=" " category="inline-code"></block> Su un URL pubblico con un utente amministrativo.</block>
+  <block id="5f85438ae0f2c9122a5cf54e8e098c98" category="list-text">Creare un account di servizio come segue:</block>
+  <block id="565ca50cb95f086800a9a4312c2bf4a1" category="list-text">Creare un file di account del servizio denominato<block ref="cb014b42d800484ee1bfbe8ed99f8c0b" prefix=" " category="inline-code"></block>.</block>
+  <block id="210c5331ab46caa141e6ac9d5aeb1bee" category="paragraph">Regolare il nome e lo spazio dei nomi in base alle esigenze. Se le modifiche vengono apportate qui, è necessario applicare le stesse modifiche nei passaggi seguenti.</block>
+  <block id="605443509a67749999ab3b0d3ba43e8b" category="list-text">Applicare l'account del servizio:</block>
+  <block id="d7f435fa7cf0bd0868423fe3be23c07e" category="list-text">Creare un'associazione di ruoli personalizzata in base ai requisiti di autorizzazione.</block>
+  <block id="4759a5a8a6e530a07d366d458377d18b" category="list-text">Creare un<block ref="e866afd8290d5c73cda6260e04e6eef0" prefix=" " category="inline-code"></block> file chiamato<block ref="b9f2e5d6f67b24cc9ff48c8f5da2cf82" prefix=" " category="inline-code"></block>.</block>
+  <block id="28f58929cb9b848d6403270c1e3c1c7b" category="list-text">Configurare l'autorizzazione RBAC in base alle esigenze del cluster.</block>
+  <block id="1fe5f07cd7f6b046882a66a9f9c308d2" category="paragraph">Concedere l'autorizzazione amministrativa completa e abilitare BlueXP per l'installazione di Astra Trident.</block>
+  <block id="c6c2bc2133c73ae2516508de9a2b5869" category="list-text">Applicare l'associazione del ruolo del cluster:</block>
+  <block id="b6e00a7dda090ccd5afd1c904d80548c" category="list-text">Elencare i segreti dell'account di servizio, sostituendo<block ref="af16c4db277e0498b5fa9e30613367f1" prefix=" " category="inline-code"></block> con il contesto corretto per l'installazione:</block>
+  <block id="f087976277d273660b942918b43af841" category="paragraph">La fine dell'output dovrebbe essere simile a quanto segue:</block>
+  <block id="34e6e63f528ac4e4d0300281b4ba2af5" category="paragraph">Gli indici di ciascun elemento in<block ref="7de38f3c3d3baa7ca58a366f09577586" prefix=" " category="inline-code"></block> l'array inizia con 0. Nell'esempio precedente, l'indice per<block ref="31921d6ae98186ed405b2281eebe2f0c" prefix=" " category="inline-code"></block> sarebbe 0 e l'indice per<block ref="7467a8e235a6124755c86b8dcaeb751e" prefix=" " category="inline-code"></block> sarebbe 1. Nell'output, annotare l'indice del nome dell'account del servizio che contiene la parola "token".</block>
+  <block id="d3727d544efa902d0381ec79cec3d488" category="list-text">Generare il kubeconfig come segue:</block>
+  <block id="ed6be01d66e94b422222a328f085d0bc" category="list-text">Creare un<block ref="3d3f9b7a5974a7898593a3d2f5549f15" prefix=" " category="inline-code"></block> file. Sostituire<block ref="089d02fba2ffcdb49a91320ff506dfa3" prefix=" " category="inline-code"></block> all'inizio del seguente script con il valore corretto.</block>
+  <block id="7d164f3971b504d6203cf274cc77dd35" category="list-text">Eseguire la sorgente dei comandi per applicarli al cluster Kubernetes.</block>
+  <block id="1cf62d04ff1d6f106540e83e87189d1e" category="paragraph">Verrà utilizzato il risultato<block ref="f6adb0f39622272857607018d7dae272" prefix=" " category="inline-code"></block> File per aggiungere un cluster OpenShift a BlueXP.</block>
+  <block id="5864314e79f82b7c3c052854ba96e1e0" category="summary">È possibile aggiungere e gestire cluster Google Kubernetes Engine (GKE) e cluster Kubernetes autogestiti in Google utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="16b03cdbe1a0514e3fcd3be6a9b75e53" category="paragraph">È possibile aggiungere e gestire cluster gestiti di Google Kubernetes Engine (GKE) e cluster di Kubernetes autogestiti in Google utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="89acfe5365df26c5b2d9c418b9507492" category="admonition">In questo argomento viene utilizzato _Kubernetes cluster_, dove la configurazione è la stessa per i cluster GKE e Kubernetes autogestiti. Viene specificato il tipo di cluster in cui la configurazione differisce.</block>
+  <block id="054b5869547fc7fde353cb63f1428881" category="list-text">È necessaria una delle quattro versioni più recenti di Astra Trident. Puoi installare o aggiornare Astra Trident direttamente da BlueXP. Dovresti <block ref="8da0f2411c72d1a5ebe475af99243801" category="inline-link-macro-rx"></block> Prima di installare Astra Trident</block>
+  <block id="2ea7096928349d1acd48d7eb73803d8c" category="list-text">Cloud Volumes ONTAP deve essere in BlueXP con lo stesso account di tenancy, spazio di lavoro e connettore del cluster Kubernetes.<block ref="0ffa37c66c18870214970164d37847a6" category="inline-link-rx"></block>.</block>
+  <block id="529dbfeb8ae591bdc60b1e28dbcdacc6" category="list-text">Un connettore deve essere in esecuzione in Google con le autorizzazioni richieste. <block ref="666096be9a7c0cee4f03722fd9c8c93c" category="inline-xref-macro-rx"></block>.</block>
+  <block id="43df01cd59bb10f6ad1000129d5a03f4" category="list-text">BlueXP supporta cluster abilitati per RBAC con e senza Active Directory. Il ruolo BlueXP Connector deve essere autorizzato su ciascun cluster GKE. <block ref="ed89a5c7598981ce49ff49e89b6578d7" category="inline-xref-macro-rx"></block>.</block>
+  <block id="57adc0b605977176ed8e5dedce2929fa" category="paragraph">Per rilevare e gestire i cluster Kubernetes, è necessario un connettore BlueXP in Google. Sarà necessario creare un nuovo connettore o utilizzare un connettore esistente con le autorizzazioni richieste.</block>
+  <block id="1d62c7476f49ea9e17c8996269118433" category="list-text"><block ref="6712f87c309e850084de4e986f4b827e" category="inline-link-macro-rx"></block> (consigliato)</block>
+  <block id="d1070a8b89935adc6bb191d1e912b5ca" category="inline-link-macro">Installare il connettore su un host Linux esistente</block>
+  <block id="f2b4c219933d07cd50ec18d34e212cb0" category="list-text"><block ref="f2b4c219933d07cd50ec18d34e212cb0" category="inline-link-macro-rx"></block></block>
+  <block id="a7d3a387d14ffdcae3ba49d52638ebb6" category="section-title">Aggiungere le autorizzazioni richieste a un connettore esistente (per rilevare un cluster GKE gestito)</block>
+  <block id="960373499947a97e65ed912d5cea84f4" category="paragraph">Se si desidera rilevare un cluster GKE gestito, potrebbe essere necessario modificare il ruolo personalizzato del connettore per fornire le autorizzazioni.</block>
+  <block id="afcaeb8a33eef207414e875d7fa75193" category="inline-link-macro">Console cloud</block>
+  <block id="c2460b8a49ca9d7a6f36222771d77ae4" category="list-text">Poll <block ref="90b0dbeec03910bdea419bc944660763" category="inline-link-macro-rx"></block>, Accedere alla pagina *ruoli*.</block>
+  <block id="cd94368c3fb0f5830daaa821b7867010" category="list-text">Utilizzando l'elenco a discesa nella parte superiore della pagina, selezionare il progetto o l'organizzazione che contiene il ruolo che si desidera modificare.</block>
+  <block id="faca795779c0bd6b6eb9d726aeb9fe83" category="list-text">Fare clic su un ruolo personalizzato.</block>
+  <block id="2179345c723745012afae6b2ce8b7947" category="list-text">Fare clic su *Edit role* (Modifica ruolo) per aggiornare le autorizzazioni del ruolo.</block>
+  <block id="7e040e62b5c02230db42032968c344e9" category="list-text">Fare clic su *Add Permissions* (Aggiungi autorizzazioni) per aggiungere le seguenti nuove autorizzazioni al ruolo.</block>
+  <block id="f273c65d0ba8f909184bfc952d84c785" category="list-text">Fare clic su *Update* (Aggiorna) per salvare il ruolo modificato.</block>
+  <block id="4ea6815c06ab16d262a11d542884555b" category="paragraph">Il modo più semplice per fornire questa connettività consiste nell'implementare il connettore e Cloud Volumes ONTAP nello stesso VPC del cluster Kubernetes. In caso contrario, è necessario impostare una connessione peering tra i diversi VPC.</block>
+  <block id="05bc4a149efe412a22905c833852e387" category="inline-image-macro">Diagramma architetturale di un cluster AKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP nello stesso VPC.</block>
+  <block id="13280145aa7524cafe226edb3dc4196e" category="paragraph"><block ref="13280145aa7524cafe226edb3dc4196e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d759dad02da369efd695d04f42e3924" category="paragraph">La convalida RBAC viene eseguita solo sui cluster Kubernetes con Active Directory (ad) attivato. I cluster Kubernetes senza ad passeranno automaticamente la convalida.</block>
+  <block id="bbbbc9a2d885b7fef0cb7769ac9bd15e" category="paragraph">È necessario autorizzare il ruolo del connettore su ciascun cluster Kubernetes in modo che il connettore possa rilevare e gestire un cluster.</block>
+  <block id="4e5cd7e1a45a0aed5c401dff45585470" category="paragraph">Da configurare <block ref="28fbe2acd4be605635c165dd4f851ab7" prefix="" category="inline-code"></block> Nel file YAML, è necessario conoscere l'ID univoco di BlueXP.</block>
+  <block id="cd019ac58084ed8d44b9df88642ca80e" category="paragraph">Puoi trovare l'ID univoco in due modi:</block>
+  <block id="c9a8cfed4d445b66caae0401bc791f0d" category="list-text">Utilizzando il comando:</block>
+  <block id="837b8b5111e480b693f744fec1804ccb" category="list-text">Nel campo Service account Details (Dettagli account servizio) del <block ref="90b0dbeec03910bdea419bc944660763" category="inline-link-macro-rx"></block>.</block>
+  <block id="4bf9575451981aabdb909c6a57da72cf" category="inline-image-macro">Una schermata dei dettagli dell'account del servizio in Cloud Console.</block>
+  <block id="ae62d39210641a9fb9c2dd38c13a2b07" category="paragraph"><block ref="ae62d39210641a9fb9c2dd38c13a2b07" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7c0ad7b6a922ca797e316eb1ed6cdbeb" category="paragraph">Sostituire <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variabile con il nome utente e. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con l'ID univoco dell'account di servizio autorizzato.</block>
+  <block id="84c0e18bb0a740c8e3db1b8dbb87bbaf" category="summary">È possibile aggiungere e gestire cluster Azure Kubernetes gestiti (AKS) e cluster Kubernetes autogestiti in Azure utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.</block>
+  <block id="39e746094f61257868fbdee54e708de3" category="admonition">Questo argomento utilizza _Kubernetes cluster_ dove la configurazione è la stessa per i cluster AKS e Kubernetes autogestiti. Viene specificato il tipo di cluster in cui la configurazione differisce.</block>
+  <block id="65a6ead622485d947a36632d3fbe81b8" category="list-text">Un connettore deve essere in esecuzione in Azure con le autorizzazioni richieste. <block ref="666096be9a7c0cee4f03722fd9c8c93c" category="inline-xref-macro-rx"></block>.</block>
+  <block id="f930640cd8c2f6280b7631bc1b669bda" category="list-text">BlueXP supporta cluster abilitati per RBAC con e senza Active Directory. Il ruolo BlueXP Connector deve essere autorizzato su ciascun cluster Azure. <block ref="ed89a5c7598981ce49ff49e89b6578d7" category="inline-xref-macro-rx"></block>.</block>
+  <block id="5accd680218ff9b6eb59e6b42358c82d" category="paragraph">Per rilevare e gestire i cluster Kubernetes, è necessario un connettore BlueXP in Azure. Sarà necessario creare un nuovo connettore o utilizzare un connettore esistente con le autorizzazioni richieste.</block>
+  <block id="271a084e5da48dbda9ce571c76885fc2" category="list-text"><block ref="1707909349e0f679cb0ce7a24d808ea4" category="inline-link-macro-rx"></block> (consigliato)</block>
+  <block id="6505fd7495c0d65d3dcf8a473c69ddcf" category="inline-link-macro">Creare un connettore da Azure Marketplace</block>
+  <block id="c325ade42558e45e83dbb26c3b2d99f2" category="list-text"><block ref="c325ade42558e45e83dbb26c3b2d99f2" category="inline-link-macro-rx"></block></block>
+  <block id="51024acb2d849b543d1d3b8ba5ac16fe" category="section-title">Aggiungere le autorizzazioni richieste a un connettore esistente (per rilevare un cluster AKS gestito)</block>
+  <block id="7b44ac8a40c4268ddeeb5c27394240a8" category="paragraph">Se si desidera rilevare un cluster AKS gestito, potrebbe essere necessario modificare il ruolo personalizzato del connettore per fornire le autorizzazioni.</block>
+  <block id="c6d0403561ba931925faedb251300c4d" category="list-text">Identificare il ruolo assegnato alla macchina virtuale Connector:</block>
+  <block id="05f6eb25137f31106ee565f876bc1881" category="list-text">Nel portale Azure, aprire il servizio macchine virtuali.</block>
+  <block id="6391d178a2b7f97a4c5c12d28e3ee3e3" category="list-text">Selezionare la macchina virtuale Connector.</block>
+  <block id="7b4a4728ec382d2f88c1ebd2db0a0027" category="list-text">In Impostazioni, selezionare *identità*.</block>
+  <block id="b506f23e6f5181789c57669fdd8ab051" category="list-text">Fare clic su *assegnazioni dei ruoli Azure*.</block>
+  <block id="c47d7faecd62443fbb2a5b4dd0d81989" category="list-text">Prendere nota del ruolo personalizzato assegnato alla macchina virtuale del connettore.</block>
+  <block id="10c89585572f5cd7f74b37ffd5122f8e" category="list-text">Aggiornare il ruolo personalizzato:</block>
+  <block id="2645a92087be17f01996829dc7c0f75d" category="list-text">Nel portale Azure, apri il tuo abbonamento ad Azure.</block>
+  <block id="a9eb814602d1b40f46b82878230e99e5" category="list-text">Fare clic su *controllo di accesso (IAM) &gt; ruoli*.</block>
+  <block id="e067d2382b356fe698b89336fbadacc9" category="list-text">Fare clic sui puntini di sospensione (...) Per il ruolo personalizzato, quindi fare clic su *Modifica*.</block>
+  <block id="08054c8ee39ddd5116698bd17cecfaf1" category="list-text">Fare clic su JSON e aggiungere le seguenti autorizzazioni:</block>
+  <block id="013bd8775ccd54f42d086e5e2e52fcde" category="list-text">Fare clic su *Review + update*, quindi su *Update*.</block>
+  <block id="6f28e0e65a7c8bda53ced1380be75662" category="paragraph">Il modo più semplice per fornire questa connettività consiste nell'implementare il connettore e Cloud Volumes ONTAP nello stesso VNET del cluster Kubernetes. In caso contrario, è necessario impostare una connessione peering tra i diversi VNet.</block>
+  <block id="eebfc310716cba392a95ca2bce744854" category="paragraph">Di seguito viene riportato un esempio che mostra ciascun componente dello stesso VNET.</block>
+  <block id="3ed1eed13874cf71dd16bfa7a46e8add" category="paragraph"><block ref="3ed1eed13874cf71dd16bfa7a46e8add" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e66dda3d0579cab5c5b60decac6b615a" category="paragraph">Ecco un altro esempio che mostra un cluster Kubernetes in esecuzione in un VNET diverso. In questo esempio, il peering fornisce una connessione tra VNET per il cluster Kubernetes e VNET per il connettore e Cloud Volumes ONTAP.</block>
+  <block id="6467a70d03cb8f90414ea4bf06aca703" category="inline-image-macro">Diagramma architetturale di un cluster AKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP in un VPC separato.</block>
+  <block id="78ec49be71e5a73ea42c464b0757bd9c" category="paragraph"><block ref="78ec49be71e5a73ea42c464b0757bd9c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="91940dfd4a354f338a2c6ffbbf52e86b" category="paragraph">RBAC <block ref="28fbe2acd4be605635c165dd4f851ab7" prefix="" category="inline-code"></block> La configurazione varia leggermente in base al tipo di cluster Kubernetes.</block>
+  <block id="5be58f4697ddee4cbc6b90938428b425" category="list-text">Se si sta implementando un cluster * AKS gestito, è necessario l'ID dell'oggetto per l'identità gestita assegnata dal sistema per il connettore. Questo ID è disponibile nel portale di gestione di Azure.</block>
+  <block id="787c8e09d4ba5342ce8f84b1af78b048" category="inline-image-macro">Una schermata della finestra ID oggetto assegnato dal sistema sul portale di gestione Azure.</block>
+  <block id="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="paragraph"><block ref="0c90ae4dc73f81dbbd0a6e0299f5deb5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4ebffaff3187e96f25bb8b4b25978bda" category="list-text">Se si sta implementando un cluster Kubernetes* a gestione automatica, è necessario il nome utente di qualsiasi utente autorizzato.</block>
+  <block id="134cda91d8ceed300f8bbdb1a6b354ed" category="paragraph">Sostituire <block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix="" category="inline-code"></block> variabile con il nome utente e. <block ref="ee324b4038870a1a0a7d516e6c4c421d" prefix="" category="inline-code"></block> Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Inizia subito</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
+  <block id="9a389df4347e021124f6973de0521d46" category="sidebar">Scopri di più sulla gestione dei dati di Kubernetes</block>
+  <block id="73c4fdeb5f438f1ffabf7a3f70af610b" category="sidebar">Kubernetes cluster su AWS</block>
+  <block id="054cd8bb1b3785f48a21cd04139835ad" category="sidebar">Kubernetes su Azure</block>
+  <block id="c5c9d7c185cc1b00668bfa872e46ab08" category="sidebar">Kubernetes su Google Cloud</block>
+  <block id="0c6a9a1e3ba06deae014e58e617bd162" category="sidebar">Kubernetes su OpenShift</block>
+  <block id="4d1d9b1ca507c58b501fe40d5773e8ee" category="sidebar">Aggiungere cluster Kubernetes</block>
+  <block id="6e65026446a3f3b3ebb5471fa617ce29" category="sidebar">Aggiungere cluster su AWS</block>
+  <block id="2d1f9ee77fc479dfb743551a0245845f" category="sidebar">Aggiungi cluster su Azure</block>
+  <block id="ba9410f15dd19e0a92f5f4c2291636d6" category="sidebar">Aggiungere cluster su Google Cloud</block>
+  <block id="14d43bcefa1304e65774a093c0b798c2" category="sidebar">Importa cluster OpenShift</block>
+  <block id="20047fa95487365e55e0fe5ef4fc9154" category="sidebar">Ottieni assistenza con BlueXP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blog e community</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Community NetApp</block>
+  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Blog Cloud Central</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Webinar sul cloud</block>
+  <block id="61d60f1794bd3201467c51134b8ed076" category="sidebar">Documentazione sui cluster Kubernetes</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
+  <block id="33729732e4c013e81e5576920fedbc76" category="sidebar">Abilita i servizi dati cloud di NetApp</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
+</blocks>

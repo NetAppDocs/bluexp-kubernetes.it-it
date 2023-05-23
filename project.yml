@@ -1,0 +1,67 @@
+---
+settings:
+  name: Kubernetes clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: Documentazione sui cluster Kubernetes
+    url: "/index.html"
+  - title: Note di rilascio
+    url: "/whats-new.html"
+  - title: Inizia subito
+    entries:
+    - title: Scopri di più sulla gestione dei dati di Kubernetes
+      url: "/concept-kubernetes.html"
+    - title: Avvio rapido
+      url: "/task/task-k8s-quick-start.html"
+  - title: Requisiti
+    entries:
+    - title: Kubernetes cluster su AWS
+      url: "/requirements/kubernetes-reqs-aws.html"
+    - title: Kubernetes su Azure
+      url: "/requirements/kubernetes-reqs-aks.html"
+    - title: Kubernetes su Google Cloud
+      url: "/requirements/kubernetes-reqs-gke.html"
+    - title: Kubernetes su OpenShift
+      url: "/requirements/kubernetes-reqs-openshift.html"
+  - title: Aggiungere cluster Kubernetes
+    entries:
+    - title: Aggiungere cluster su AWS
+      url: "/task/task-kubernetes-discover-aws.html"
+    - title: Aggiungi cluster su Azure
+      url: "/task/task-kubernetes-discover-azure.html"
+    - title: Aggiungere cluster su Google Cloud
+      url: "/task/task-kubernetes-discover-gke.html"
+    - title: Importa cluster OpenShift
+      url: "/task/task-kubernetes-discover-openshift.html"
+  - title: Gestire i cluster Kubernetes
+    entries:
+    - title: Gestire Astra Trident
+      url: "/task/task-k8s-manage-trident.html"
+    - title: Gestire le classi di storage
+      url: "/task/task-k8s-manage-storage-classes.html"
+    - title: Visualizzare volumi persistenti
+      url: "/task/task-k8s-manage-persistent-volumes.html"
+    - title: Rimuovere i cluster
+      url: "/task/task-k8s-manage-remove-cluster.html"
+    - title: Abilita i servizi dati cloud di NetApp
+      url: "/task/task-kubernetes-enable-services.html"
+  - title: Conoscenza e supporto
+    entries:
+    - title: Registrati per ricevere assistenza
+      url: "/support/task-support-registration.html"
+    - title: Richiedi assistenza
+      url: "/support/task-get-help.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Tutta la documentazione BlueXP

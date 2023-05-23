@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-manage-k8s.html 
+keywords: overview, manage, k8s, kubernetes, tridentctl, trident operator, operator 
+summary: È possibile utilizzare BlueXP per installare Astra Trident, configurare le classi di storage, rimuovere i cluster e abilitare i servizi dati. 
+---
+= Gestire i cluster Kubernetes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+È possibile utilizzare BlueXP per installare o aggiornare Astra Trident, configurare le classi di storage, rimuovere i cluster e abilitare i servizi dati.
+
+
+
+== Caratteristiche
+
+Dopo aver aggiunto i cluster Kubernetes a BlueXP, è possibile gestire i cluster dalla pagina delle risorse. Per aprire la pagina delle risorse, fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas.
+
+image:screenshot-k8s-resource-page.png["Una schermata della pagina delle risorse di Kubernetes che mostra i dettagli del cluster."]
+
+Dalla pagina delle risorse è possibile:
+
+* Visualizzare lo stato del cluster Kubernetes.
+* Verificare che sia installata una versione compatibile di Astra Trident, eseguire l'aggiornamento all'ultima versione di Astra Trident o disinstallare Astra Trident. Vedere link:./task/task-k8s-manage-trident.html["Installare Astra Trident"].
+* Aggiungere e rimuovere classi di storage. Vedere link:./task/task-k8s-manage-storage-classes.html["Gestire le classi di storage"].
+* Visualizzare volumi persistenti. Vedere link:./task/task-k8s-manage-persistent-volumes.html["Visualizzare volumi persistenti"].
+* Rimuovere i cluster Kubernetes dallo spazio di lavoro. Vedere link:./task/task-k8s-manage-remove-cluster.html["Rimuovere i cluster"].
+* Attivare o visualizzare il backup e ripristino BlueXP. Vedere link:./task/task-kubernetes-enable-services.html["Utilizza i servizi dati cloud di NetApp"].
+
+
+
+
+== Limite noto
+
+Astra Trident implementato con `tridentctl` non è supportato. Se hai implementato Astra Trident con `tridentctl`, Non è possibile utilizzare BlueXP per gestire i cluster Kubernetes. È necessario  e reinstallarla link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Utilizzando l'operatore Trident"^] oppure link:./task/task-k8s-manage-trident.html["Utilizzando BlueXP"].

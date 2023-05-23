@@ -1,0 +1,302 @@
+---
+sidebar: sidebar 
+permalink: requirements/kubernetes-reqs-aks.html 
+keywords: kubernetes, k8s, discover kubernetes cluster, discover k8s, azure, aks, kubernetes support 
+summary: 'È possibile aggiungere e gestire cluster Azure Kubernetes gestiti (AKS) e cluster Kubernetes autogestiti in Azure utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.' 
+---
+= Requisiti per i cluster Kubernetes in Azure
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+È possibile aggiungere e gestire cluster Azure Kubernetes gestiti (AKS) e cluster Kubernetes autogestiti in Azure utilizzando BlueXP. Prima di aggiungere i cluster a BlueXP, assicurarsi che siano soddisfatti i seguenti requisiti.
+
+
+NOTE: Questo argomento utilizza _Kubernetes cluster_ dove la configurazione è la stessa per i cluster AKS e Kubernetes autogestiti. Viene specificato il tipo di cluster in cui la configurazione differisce.
+
+
+
+== Requisiti
+
+Astra Trident:: È necessaria una delle quattro versioni più recenti di Astra Trident. Puoi installare o aggiornare Astra Trident direttamente da BlueXP. Dovresti link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["esaminare i prerequisiti"^] Prima di installare Astra Trident.
+Cloud Volumes ONTAP:: Cloud Volumes ONTAP deve essere configurato come storage back-end per il cluster. https://docs.netapp.com/us-en/trident/trident-use/backends.html["Consultare i documenti di Astra Trident per la procedura di configurazione"^].
+Connettore BlueXP:: Un connettore deve essere in esecuzione in Azure con le autorizzazioni richieste. <<Preparare un connettore,Scopri di più di seguito>>.
+Connettività di rete:: È necessaria la connettività di rete tra il cluster Kubernetes e il connettore e tra il cluster Kubernetes e Cloud Volumes ONTAP. <<Esaminare i requisiti di rete,Scopri di più di seguito>>.
+Autorizzazione RBAC:: BlueXP supporta cluster abilitati per RBAC con e senza Active Directory. Il ruolo BlueXP Connector deve essere autorizzato su ciascun cluster Azure. <<Impostare l'autorizzazione RBAC,Scopri di più di seguito>>.
+
+
+
+
+== Preparare un connettore
+
+Per rilevare e gestire i cluster Kubernetes, è necessario un connettore BlueXP in Azure. Sarà necessario creare un nuovo connettore o utilizzare un connettore esistente con le autorizzazioni richieste.
+
+
+
+=== Creare un nuovo connettore
+
+Seguire la procedura descritta in uno dei collegamenti riportati di seguito.
+
+* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-azure.html#overview["Creare un connettore da BlueXP"^] (consigliato)
+* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-azure-mktp.html["Creare un connettore da Azure Marketplace"^]
+* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Installare il connettore su un host Linux esistente"^]
+
+
+
+
+=== Aggiungere le autorizzazioni richieste a un connettore esistente (per rilevare un cluster AKS gestito)
+
+Se si desidera rilevare un cluster AKS gestito, potrebbe essere necessario modificare il ruolo personalizzato del connettore per fornire le autorizzazioni.
+
+.Fasi
+. Identificare il ruolo assegnato alla macchina virtuale Connector:
++
+.. Nel portale Azure, aprire il servizio macchine virtuali.
+.. Selezionare la macchina virtuale Connector.
+.. In Impostazioni, selezionare *identità*.
+.. Fare clic su *assegnazioni dei ruoli Azure*.
+.. Prendere nota del ruolo personalizzato assegnato alla macchina virtuale del connettore.
+
+
+. Aggiornare il ruolo personalizzato:
++
+.. Nel portale Azure, apri il tuo abbonamento ad Azure.
+.. Fare clic su *controllo di accesso (IAM) > ruoli*.
+.. Fare clic sui puntini di sospensione (...) Per il ruolo personalizzato, quindi fare clic su *Modifica*.
+.. Fare clic su JSON e aggiungere le seguenti autorizzazioni:
++
+[source, json]
+----
+"Microsoft.ContainerService/managedClusters/listClusterUserCredential/action"
+"Microsoft.ContainerService/managedClusters/read"
+----
+.. Fare clic su *Review + update*, quindi su *Update*.
+
+
+
+
+
+
+== Esaminare i requisiti di rete
+
+È necessario fornire la connettività di rete tra il cluster Kubernetes e il connettore e tra il cluster Kubernetes e il sistema Cloud Volumes ONTAP che fornisce lo storage back-end al cluster.
+
+* Ogni cluster Kubernetes deve disporre di una connessione in entrata dal connettore
+* Il connettore deve disporre di una connessione in uscita a ciascun cluster Kubernetes sulla porta 443
+
+
+Il modo più semplice per fornire questa connettività consiste nell'implementare il connettore e Cloud Volumes ONTAP nello stesso VNET del cluster Kubernetes. In caso contrario, è necessario impostare una connessione peering tra i diversi VNet.
+
+Di seguito viene riportato un esempio che mostra ciascun componente dello stesso VNET.
+
+image:diagram-kubernetes-azure.png["Diagramma architetturale di un cluster AKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP nello stesso VPC."]
+
+Ecco un altro esempio che mostra un cluster Kubernetes in esecuzione in un VNET diverso. In questo esempio, il peering fornisce una connessione tra VNET per il cluster Kubernetes e VNET per il connettore e Cloud Volumes ONTAP.
+
+image:diagram-kubernetes-azure-with-peering.png["Diagramma architetturale di un cluster AKS Kubernetes e della sua connessione a un connettore e a Cloud Volumes ONTAP in un VPC separato."]
+
+
+
+== Impostare l'autorizzazione RBAC
+
+La convalida RBAC viene eseguita solo sui cluster Kubernetes con Active Directory (ad) attivato. I cluster Kubernetes senza ad passeranno automaticamente la convalida.
+
+È necessario autorizzare il ruolo del connettore su ciascun cluster Kubernetes in modo che il connettore possa rilevare e gestire un cluster.
+
+Backup e ripristino:: Il backup e il ripristino richiedono solo un'autorizzazione di base.
+Aggiungere classi di storage:: È necessaria un'autorizzazione estesa per aggiungere classi di storage utilizzando BlueXP e monitorare il cluster per rilevare eventuali modifiche al backend.
+Installare Astra Trident:: Devi fornire l'autorizzazione completa per BlueXP per installare Astra Trident.
++
+--
+
+NOTE: Durante l'installazione di Astra Trident, BlueXP installa il backend Astra Trident e il segreto Kubernetes che contiene le credenziali che Astra Trident deve comunicare con il cluster di storage.
+
+--
+
+
+.Prima di iniziare
+RBAC ``subjects: name:`` La configurazione varia leggermente in base al tipo di cluster Kubernetes.
+
+* Se si sta implementando un cluster * AKS gestito, è necessario l'ID dell'oggetto per l'identità gestita assegnata dal sistema per il connettore. Questo ID è disponibile nel portale di gestione di Azure.
++
+image:screenshot-k8s-aks-obj-id.png["Una schermata della finestra ID oggetto assegnato dal sistema sul portale di gestione Azure."]
+
+* Se si sta implementando un cluster Kubernetes* a gestione automatica, è necessario il nome utente di qualsiasi utente autorizzato.
+
+
+.Fasi
+Creare un ruolo del cluster e un'associazione di ruoli.
+
+. Puoi personalizzare l'autorizzazione in base ai tuoi requisiti.
++
+[role="tabbed-block"]
+====
+.Backup/ripristino
+--
+Aggiungere l'autorizzazione di base per abilitare il backup e il ripristino per i cluster Kubernetes.
+
+Sostituire ``subjects: kind:`` variabile con il nome utente e. ``subjects: user:`` Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.
+
+[source, yaml]
+----
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+    name: cloudmanager-access-clusterrole
+rules:
+    - apiGroups:
+          - ''
+      resources:
+          - namespaces
+      verbs:
+          - list
+          - watch
+    - apiGroups:
+          - ''
+      resources:
+          - persistentvolumes
+      verbs:
+          - list
+          - watch
+    - apiGroups:
+          - ''
+      resources:
+          - pods
+          - pods/exec
+      verbs:
+          - get
+          - list
+          - watch
+    - apiGroups:
+          - ''
+      resources:
+          - persistentvolumeclaims
+      verbs:
+          - list
+          - create
+          - watch
+    - apiGroups:
+          - storage.k8s.io
+      resources:
+          - storageclasses
+      verbs:
+          - list
+    - apiGroups:
+          - trident.netapp.io
+      resources:
+          - tridentbackends
+      verbs:
+          - list
+          - watch
+    - apiGroups:
+          - trident.netapp.io
+      resources:
+          - tridentorchestrators
+      verbs:
+          - get
+          - watch
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+    name: k8s-access-binding
+subjects:
+    - kind: User
+      name:
+      apiGroup: rbac.authorization.k8s.io
+roleRef:
+    kind: ClusterRole
+    name: cloudmanager-access-clusterrole
+    apiGroup: rbac.authorization.k8s.io
+----
+--
+.Classi di storage
+--
+Aggiunta di autorizzazioni estese per aggiungere classi di storage utilizzando BlueXP.
+
+Sostituire ``subjects: kind:`` variabile con il nome utente e. ``subjects: user:`` Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.
+
+[source, yaml]
+----
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+    name: cloudmanager-access-clusterrole
+rules:
+    - apiGroups:
+          - ''
+      resources:
+          - secrets
+          - namespaces
+          - persistentvolumeclaims
+          - persistentvolumes
+          - pods
+          - pods/exec
+      verbs:
+          - get
+          - list
+          - watch
+          - create
+          - delete
+          - watch
+    - apiGroups:
+          - storage.k8s.io
+      resources:
+          - storageclasses
+      verbs:
+          - get
+          - create
+          - list
+          - watch
+          - delete
+          - patch
+    - apiGroups:
+          - trident.netapp.io
+      resources:
+          - tridentbackends
+          - tridentorchestrators
+          - tridentbackendconfigs
+      verbs:
+          - get
+          - list
+          - watch
+          - create
+          - delete
+          - watch
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+    name: k8s-access-binding
+subjects:
+    - kind: User
+      name:
+      apiGroup: rbac.authorization.k8s.io
+roleRef:
+    kind: ClusterRole
+    name: cloudmanager-access-clusterrole
+    apiGroup: rbac.authorization.k8s.io
+----
+--
+.Installazione di Trident
+--
+Utilizzare la riga di comando per fornire l'autorizzazione completa e abilitare BlueXP per installare Astra Trident.
+
+[source, cli]
+----
+eksctl create iamidentitymapping --cluster < > --region < > --arn < > --group "system:masters" --username system:node:{{EC2PrivateDNSName}}
+----
+--
+====
+. Applicare la configurazione a un cluster.
++
+[source, kubectl]
+----
+kubectl apply -f <file-name>
+----
+

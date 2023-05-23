@@ -1,0 +1,64 @@
+---
+indexpage:
+  lead: Aggiungi i cluster Kubernetes gestiti a BlueXP per una gestione avanzata dei
+    dati.
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Novità
+      url: "/whats-new.html"
+    - title: Scopri di più sulla gestione dei dati di Kubernetes
+      url: "/concept-kubernetes.html"
+    - title: Avvio rapido
+      url: "/task/task-k8s-quick-start.html"
+  - title: Requisiti
+    links:
+    - title: Kubernetes cluster su AWS
+      url: "/requirements/kubernetes-reqs-aws.html"
+      flavor: aws
+    - title: Kubernetes su Azure
+      url: "/requirements/kubernetes-reqs-aks.html"
+      flavor: azure
+    - title: Kubernetes su Google Cloud
+      url: "/requirements/kubernetes-reqs-gke.html"
+      flavor: gcp
+    - title: Kubernetes su OpenShift
+      url: "/requirements/kubernetes-reqs-openshift.html"
+  - title: Aggiungere cluster Kubernetes
+    links:
+    - title: Aggiungere cluster su AWS
+      url: "/task/task-kubernetes-discover-aws.html"
+      flavor: aws
+    - title: Aggiungi cluster su Azure
+      url: "/task/task-kubernetes-discover-azure.html"
+      flavor: azure
+    - title: Aggiungere cluster su Google Cloud
+      url: "/task/task-kubernetes-discover-gke.html"
+    - title: Importa cluster OpenShift
+      url: "/task/task-kubernetes-discover-openshift.html"
+  - title: Gestire i cluster Kubernetes
+    links:
+    - title: Gestire Astra Trident
+      url: "/task/task-k8s-manage-trident.html"
+    - title: Gestire le classi di storage
+      url: "/task/task-k8s-manage-storage-classes.html"
+    - title: Visualizzare volumi persistenti
+      url: "/task/task-k8s-manage-persistent-volumes.html"
+    - title: Rimuovere i cluster
+      url: "/task/task-k8s-manage-remove-cluster.html"
+    - title: Abilitare i servizi dati
+      url: "/task/task-kubernetes-enable-services.html"
+  - title: Ottieni assistenza con BlueXP
+    links:
+    - title: Registrati per ricevere assistenza
+      url: "/support/task-support-registration.html"
+    - title: Richiedi assistenza
+      url: "/support/task-get-help.html"
+  - title: Blog e community
+    links:
+    - title: Community NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog Cloud Central
+      url: https://cloud.netapp.com/blog
+    - title: Webinar sul cloud
+      url: https://cloud.netapp.com/events

@@ -1,0 +1,91 @@
+---
+sidebar: sidebar 
+permalink: task/task-k8s-manage-trident.html 
+keywords: kubernetes, k8s, install astra trident, kubernetes support 
+summary: 'Dopo aver aggiunto un cluster di Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per confermare un"installazione di Astra Trident compatibile o installare Astra Trident. È necessaria una delle quattro versioni più recenti di Astra Trident.' 
+---
+= Gestire Astra Trident
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, è possibile utilizzare BlueXP per confermare un'installazione di Astra Trident compatibile, installare o aggiornare Astra Trident alla versione più recente o disinstallare Astra Trident.
+
+
+
+== Astra Trident in BlueXP
+
+Dopo aver aggiunto i cluster Kubernetes a BlueXP, puoi gestire Astra Trident e i cluster Kubernetes dalla pagina panoramica. Per aprire la pagina panoramica, fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas.
+
+image:screenshot-k8s-resource-page.png["Una schermata della pagina delle risorse di Kubernetes che mostra i dettagli del cluster."]
+
+
+
+=== Versioni supportate di Astra Trident
+
+È necessaria una delle quattro versioni più recenti di Astra Trident implementate utilizzando l'operatore Trident, manualmente o utilizzando la mappa Helm. Se Astra Trident non è installato o è installata una versione incompatibile di Astra Trident, il cluster mostrerà che è necessario eseguire un'azione.
+
+
+NOTE: Astra Trident implementato con `tridentctl` non è supportato. Se hai implementato Astra Trident con `tridentctl`, Non è possibile utilizzare BlueXP per gestire i cluster Kubernetes o disinstallare Astra Trident. È necessario  E reinstallare Astra Trident manualmente utilizzando link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["L'operatore Trident"^] O in BlueXP con <<Installare o aggiornare Astra Trident>>.
+
+Per ulteriori informazioni su Astra Trident, vedere link:https://docs.netapp.com/us-en/trident/index.html["Documentazione di Astra Trident"^].
+
+
+
+== Installare o aggiornare Astra Trident
+
+Puoi rivedere lo stato e la versione dell'installazione di Astra Trident nella pagina panoramica. Se Astra Trident non è già installato o se è installata una versione incompatibile, è possibile gestirla utilizzando BlueXP.
+
+.Fasi
+. Fare doppio clic sull'ambiente di lavoro Kubernetes in Canvas o fare clic su *Enter Working Environment*.
++
+.. Se Astra Trident non è installato, fare clic su *Installa Trident*.
++
+image:screenshot-k8s-install-trident.png["Una schermata della pagina delle risorse di K8s che mostra l'assenza dell'installazione di Astra Trident e il pulsante per installare Astra Trident."]
+
+.. Se è installata una versione non supportata di Astra Trident, fare clic su *Upgrade Trident* (Aggiorna Trident).
++
+image:screenshot-k8s-upgrade-trident.png["Una schermata del processo di aggiornamento di Astra Trident."]
+
++
+
+NOTE: Non è possibile utilizzare BlueXP per eseguire l'aggiornamento da Astra Trident versioni precedenti alla 21.01. Per eseguire l'aggiornamento da una versione precedente, fare riferimento a. link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/upgrade-operator.html["Eseguire l'upgrade con l'operatore"^].
+
+
+
+
+
+.Risultati
+È installata l'ultima versione di Astra Trident. È ora possibile aggiungere classi di storage.
+
+
+
+== Disinstallare Astra Trident
+
+Se Astra Trident è stato installato utilizzando BlueXP o l'operatore Trident (Helm o manualmente), è possibile disinstallarlo utilizzando BlueXP.
+
+[NOTE]
+====
+* Dopo aver disinstallato Astra Trident non è possibile creare nuovi volumi persistenti, ma i volumi esistenti sono ancora disponibili.
+* Mentre Astra Trident è disinstallato, il backup non è disponibile.
+* Puoi reinstallare Astra Trident nell'ambiente di lavoro in qualsiasi momento per continuare a gestire i cluster.
+
+
+====
+La disinstallazione di Astra Trident con BlueXP non rimuove tutti i servizi Astra Trident applicati durante l'installazione. Per rimuovere completamente Astra Trident, incluse tutte le definizioni di risorse personalizzate (CRD) create, fare riferimento a. link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/uninstall-trident.html#uninstall-by-using-the-trident-operator["Eseguire la disinstallazione utilizzando l'operatore Trident"^]
+
+.Fasi
+. Dalla pagina panoramica, selezionare i puntini di sospensione e *Disinstalla Astra Trident*.
++
+image:screenshot-trident-uninstall.png["Una schermata del menu per disinstallare Astra Trident."]
+
+. Selezionare *Disinstalla* per confermare e disinstallare Astra Trident.
+
+
+.Risultati
+Astra Trident viene disinstallato dall'ambiente di lavoro. Puoi reinstallare Astra Trident in qualsiasi momento.
