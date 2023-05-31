@@ -13,156 +13,156 @@
   
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/concept-kubernetes.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/concept-kubernetes.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/concept-manage-k8s.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/concept-manage-k8s.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/requirements/kubernetes-reqs-aks.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/requirements/kubernetes-reqs-aws.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/requirements/kubernetes-reqs-gke.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/requirements/kubernetes-reqs-openshift.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/legal-notices.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes//search.html</loc>
+      
+      <lastmod>2023-05-31T15:14:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/support/task-get-help.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-k8s-manage-persistent-volumes.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-k8s-manage-remove-cluster.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-k8s-manage-storage-classes.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-k8s-manage-trident.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-k8s-quick-start.html</loc>
+      
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-kubernetes-discover-aws.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/legal-notices.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-kubernetes-discover-azure.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes//search.html</loc>
-      
-      <lastmod>2023-05-24T08:16:06+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/support/task-get-help.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-kubernetes-discover-gke.html</loc>
       
       <lastmod>2023-05-23T20:29:29+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-k8s-manage-persistent-volumes.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-kubernetes-discover-openshift.html</loc>
       
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-k8s-manage-remove-cluster.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/task/task-kubernetes-enable-services.html</loc>
       
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-k8s-manage-trident.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-k8s-quick-start.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/support/task-support-registration.html</loc>
       
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html</loc>
+      <loc>https://docs.netapp.com/it-it/bluexp-kubernetes/whats-new.html</loc>
       
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-kubernetes-discover-openshift.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/task/task-kubernetes-enable-services.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/support/task-support-registration.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
-      
-    </url>
-  
-    <url>
-      <loc>https://docs.netapp.com/it-it/cloud-manager-kubernetes/whats-new.html</loc>
-      
-      <lastmod>2023-05-23T20:29:29+00:00</lastmod>
+      <lastmod>2023-05-31T15:14:24+00:00</lastmod>
       
     </url>
   
