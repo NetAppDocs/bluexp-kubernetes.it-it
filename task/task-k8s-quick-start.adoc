@@ -14,33 +14,33 @@ summary: Con BlueXP puoi iniziare a gestire i cluster Kubernetes in pochi passag
 
 
 [role="lead"]
-Utilizzo di link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] Puoi iniziare a gestire i cluster Kubernetes in pochi passaggi.
+Utilizzo di link:https://docs.netapp.com/us-en/bluexp-setup-admin/index.html["BlueXP"^] Puoi iniziare a gestire i cluster Kubernetes in pochi passaggi.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Esaminare i prerequisiti
 [role="quick-margin-para"]
 Assicurarsi che l'ambiente soddisfi i prerequisiti per il tipo di cluster in uso.
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Requisiti per i cluster Kubernetes in AWS"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aws.html["Requisiti per i cluster Kubernetes in AWS"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Requisiti per i cluster Kubernetes in Azure"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-aks.html["Requisiti per i cluster Kubernetes in Azure"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Requisiti per i cluster Kubernetes in Google Cloud"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-gke.html["Requisiti per i cluster Kubernetes in Google Cloud"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] Aggiungi i tuoi cluster Kubernetes a BlueXP
 [role="quick-margin-para"]
 È possibile aggiungere cluster Kubernetes e connetterli a un ambiente di lavoro utilizzando BlueXP.
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-aws.html["Aggiungi un cluster Amazon Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-aws.html["Aggiungi un cluster Amazon Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-azure.html["Aggiungere un cluster Azure Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-azure.html["Aggiungere un cluster Azure Kubernetes"]
 
 [role="quick-margin-para"]
-link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Aggiungi un cluster Google Cloud Kubernetes"]
+link:https://docs.netapp.com/us-en/bluexp-kubernetes/task/task-kubernetes-discover-gke.html["Aggiungi un cluster Google Cloud Kubernetes"]
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Quattro"] Avviare il provisioning dei volumi persistenti
 [role="quick-margin-para"]

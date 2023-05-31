@@ -18,6 +18,6 @@ Dopo aver aggiunto un cluster Kubernetes gestito a Canvas, puoi utilizzare i ser
 
 È possibile utilizzare il backup e il ripristino di BlueXP per eseguire il backup dei volumi persistenti nello storage a oggetti.
 
-link:https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-kubernetes-backup-to-cloud.html["Scopri come proteggere i dati del cluster Kubernetes utilizzando il backup e il ripristino BlueXP"^].
+link:https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-kubernetes-backup-to-cloud.html["Scopri come proteggere i dati del cluster Kubernetes utilizzando il backup e il ripristino BlueXP"^].
 
 image:screenshot-k8s-backup.png["Una schermata della pagina Kubernetes in BlueXP backup and recovery che mostra cinque processi di backup per un cluster Kubernetes."]

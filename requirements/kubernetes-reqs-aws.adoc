@@ -42,9 +42,9 @@ In AWS è necessario un connettore BlueXP per rilevare e gestire i cluster Kuber
 
 Seguire la procedura descritta in uno dei collegamenti riportati di seguito.
 
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["Creare un connettore da BlueXP"^] (consigliato)
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-launching-aws-mktp.html["Creare un connettore da AWS Marketplace"^]
-* link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-installing-linux.html["Installare il connettore su un host Linux esistente in AWS"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-creating-connectors-aws.html["Creare un connettore da BlueXP"^] (consigliato)
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-launching-aws-mktp.html["Creare un connettore da AWS Marketplace"^]
+* link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-installing-linux.html["Installare il connettore su un host Linux esistente in AWS"^]
 
 
 
@@ -72,7 +72,7 @@ image:screenshot-aws-edit-policy.png["Una schermata della console AWS che mostra
 
 
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-permissions-aws.html["Visualizza il formato JSON completo per la policy"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-permissions-aws.html["Visualizza il formato JSON completo per la policy"^]
 
 . Fare clic su *Review policy* (esamina policy), quindi su *Save changes* (Salva modifiche).
 

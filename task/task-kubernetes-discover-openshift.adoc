@@ -25,7 +25,7 @@ Importa un cluster OpenShift autogestiti in BlueXP per iniziare a eseguire il ba
 .Prima di iniziare
 Prima di importare un cluster OpenShift, è necessario:
 
-* Il file `kubeconfig-sa`creato in link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["creare un file kubeconfig"].
+* Il file `kubeconfig-sa`creato in link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["creare un file kubeconfig"].
 * I file Public Certificate Authority (ad esempio, ca.crt), Client Key (ad esempio tls.key) e Client Certification (ad esempio, tls.crt) per il cluster.
 
 
@@ -33,7 +33,7 @@ Prima di importare un cluster OpenShift, è necessario:
 . In *Canvas*, selezionare *Add Working Environment* (Aggiungi ambiente di lavoro).
 . Seleziona il tuo provider cloud e seleziona *Kubernetes Cluster* > *Discover*.
 . Selezionare *Importa cluster*, quindi *Avanti*.
-. Caricare `kubeconfig-sa` file creato in link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["creare un file kubeconfig"]. Selezionare il cluster Kubernetes e selezionare *Avanti*.
+. Caricare `kubeconfig-sa` file creato in link:https://docs.netapp.com/us-en/bluexp-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["creare un file kubeconfig"]. Selezionare il cluster Kubernetes e selezionare *Avanti*.
 +
 image:screenshot-k8s-aks-import-1.png["Una schermata della pagina di importazione dei cluster Kubernetes con il file di configurazione e la tabella dei cluster disponibili."]
 
