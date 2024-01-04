@@ -140,7 +140,7 @@ Creare un ruolo del cluster e un'associazione di ruoli.
 --
 Aggiungere l'autorizzazione di base per abilitare il backup e il ripristino per i cluster Kubernetes.
 
-Sostituire ``subjects: kind:`` variabile con il nome utente e. ``subjects: user:`` Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.
+Sostituire `subjects: kind:` variabile con il nome utente e. `subjects: name:` Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.
 
 [source, yaml]
 ----

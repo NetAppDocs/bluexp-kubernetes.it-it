@@ -598,7 +598,6 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Note di rilascio</block>
   <block id="33729732e4c013e81e5576920fedbc76" category="sidebar">Abilita i servizi dati cloud di NetApp</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conoscenza e supporto</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
   <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
@@ -703,4 +702,6 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un file service del cloud provider</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per supporto tecnico relativo a un file service di un cloud provider, alla sua infrastruttura o a una soluzione che utilizza il servizio, fare riferimento a "Guida in linea" nella documentazione BlueXP relativa a quel prodotto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
+  <block id="531ad5e6be7e9668f912aa6e655e5902" category="paragraph">Sostituire<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variabile con il nome utente e.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con l'ID univoco dell'account di servizio autorizzato.</block>
+  <block id="f7686ca7ddbb48ed256c1ad60bb0a874" category="paragraph">Sostituire<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variabile con il nome utente e.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.</block>
 </blocks>
