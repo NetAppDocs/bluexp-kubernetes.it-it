@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluexp-kubernetes | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/it-it/bluexp-kubernetes/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/it-it/bluexp-kubernetes</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>it-it</language>
+    <ttl>60</ttl>
+    <pubDate>Thu, 04 Jan 2024 20:35:20 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Jan 2024 20:35:20 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Novità di Kubernetes in BlueXP (31 May 2023)</title>
+      <pubDate>Wed, 31 May 2023 15:14:24 +0000</pubDate>
+      <link>https://docs.netapp.com/it-it/bluexp-kubernetes/whats-new.html?time=1685546064</link>
+      <guid isPermaLink="false">Wed, 31 May 2023 15:14:24 +0000</guid>
+      <description><![CDATA[ Scopri le novità di Kubernetes in BlueXP. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
