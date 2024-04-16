@@ -15,7 +15,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Se disponi di un account partner o reseller, puoi aggiungere uno o più account NSS, ma non possono essere aggiunti insieme agli account a livello di cliente.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Schermata del menu Help (Guida) in cui Support (Assistenza) è la prima opzione elencata</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp utilizza Microsoft Azure Active Directory come provider di identità per i servizi di autenticazione specifici per il supporto e la concessione di licenze.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Nella pagina di accesso, fornire l'indirizzo e-mail e la password registrati del NetApp Support Site per eseguire il processo di autenticazione.</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Queste azioni consentono a BlueXP di utilizzare il tuo account NSS per download di licenze, verifica dell'aggiornamento software e registrazioni di supporto future.</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Tenere presente quanto segue:</block>
@@ -60,8 +59,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Unisciti alla community BlueXP per seguire le discussioni in corso o crearne di nuove.</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Documentazione</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">La documentazione BlueXP attualmente visualizzata.</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Mailto:ng-cloudmanager-feedback@netapp.com[email di feedback]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Diamo valore al tuo contributo. Invia un feedback per aiutarci a migliorare BlueXP.</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Crea un caso con il supporto NetApp</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Oltre alle opzioni di supporto autonomo sopra descritte, puoi collaborare con uno specialista del supporto NetApp per risolvere eventuali problemi dopo l'attivazione del supporto.</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Prima di iniziare</block>
@@ -352,7 +349,6 @@
   <block id="213acaa88814071409958acdc9192518" category="section-title">Implementazioni di Astra Trident supportate</block>
   <block id="510a1dab177e7ff08d50b9ab0588f804" category="inline-link-macro">Implementato utilizzando l'operatore Trident</block>
   <block id="8f13bd8ba84d92d65e6ae6ebc5f6263e" category="paragraph">Una delle quattro versioni più recenti di Astra Trident <block ref="8da7bbab7c5d8930c9f1dd2985917853" category="inline-link-macro-rx"></block> è obbligatorio.</block>
-  <block id="76bef843768c13f5b026423fd5e3f21d" category="paragraph">Puoi installare o aggiornare alla versione più recente di Astra Trident direttamente da BlueXP.</block>
   <block id="301f4e6b65ae846f84074dd048ca5b79" category="inline-link-macro">Esaminare i prerequisiti di Astra Trident</block>
   <block id="a4505b3bac04e5dbfea022e8773b5c49" category="paragraph"><block ref="a4505b3bac04e5dbfea022e8773b5c49" category="inline-link-macro-rx"></block></block>
   <block id="c9ece1f2227c56942142d90092ca7fd2" category="section-title">Storage back-end supportato</block>
@@ -704,4 +700,6 @@
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
   <block id="531ad5e6be7e9668f912aa6e655e5902" category="paragraph">Sostituire<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variabile con il nome utente e.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con l'ID univoco dell'account di servizio autorizzato.</block>
   <block id="f7686ca7ddbb48ed256c1ad60bb0a874" category="paragraph">Sostituire<block ref="860b2d1ba3877711b8cf22d81c10ee15" prefix=" " category="inline-code"></block> variabile con il nome utente e.<block ref="28fbe2acd4be605635c165dd4f851ab7" prefix=" " category="inline-code"></block> Con l'ID oggetto per l'identità gestita assegnata dal sistema o il nome utente di qualsiasi utente autorizzato, come descritto in precedenza.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilizza Microsoft Entra ID come provider di identità per i servizi di autenticazione specifici per il supporto e la licenza.</block>
+  <block id="7da82155c5e551fd1f5208b71004d2ff" category="paragraph">Puoi installare Astra Trident o effettuare l'aggiornamento a una versione supportata direttamente da BlueXP.</block>
 </blocks>

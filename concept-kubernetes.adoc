@@ -50,7 +50,7 @@ Una delle quattro versioni più recenti di Astra Trident link:https://docs.netap
 
 NOTE: Astra Trident implementato con `tridentctl` non è supportato. Se hai implementato Astra Trident con `tridentctl`, Non è possibile utilizzare BlueXP per gestire i cluster Kubernetes. È necessario  e reinstallarla link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Utilizzando l'operatore Trident"^] oppure link:./task/task-k8s-manage-trident.html["Utilizzando BlueXP"].
 
-Puoi installare o aggiornare alla versione più recente di Astra Trident direttamente da BlueXP.
+Puoi installare Astra Trident o effettuare l'aggiornamento a una versione supportata direttamente da BlueXP.
 
 link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["Esaminare i prerequisiti di Astra Trident"^]
 
